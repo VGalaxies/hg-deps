@@ -6,10 +6,12 @@ import tempfile
 from collections import defaultdict
 
 
-def extract_license(jar_path, jar_name, rule, url, license_url):
+def extract_license(jar_path, jar_name, rule, license_url):
     # Create temporary directory for extraction
     with tempfile.TemporaryDirectory() as tmpdirname:
-        extract_path = os.path.join(tmpdirname, jar_name.split('.jar')[0])
+        name = jar_name.split('.jar')[0]
+        extract_path = os.path.join(tmpdirname, name)
+        license_dest = f"licenses/LICENSE-{name}.txt"
 
         # Unzip JAR file using zipfile
         with zipfile.ZipFile(jar_path, 'r') as jar_file:
@@ -24,17 +26,20 @@ def extract_license(jar_path, jar_name, rule, url, license_url):
 
         # If license file is found in JAR, copy it
         if license_files:
-            license_dest = f"licenses/LICENSE-{jar_name}.txt"
             license_src = license_files[0]
             shutil.copyfile(license_src, license_dest)
             return "extracted from JAR"
 
-        # Handle cases where no file is found in JAR
-        license_dest = f"licenses/LICENSE-{jar_name}.txt"
+        # Try to find predefined license file
+        predefined_license_file = f"licenses-predefined/{name}.txt"
+        if os.path.exists(predefined_license_file):
+            shutil.copyfile(predefined_license_file, license_dest)
+            return f"from predefined license: {predefined_license_file}"
 
+        # Handle cases where no file is found in JAR
         if rule != "Apache 2.0" and license_url:
             with open(license_dest, 'w') as f:
-                f.write(f"License obtained from: {license_url}\n")
+                f.write(f"{license_url}\n")
             return f"from license_url: {license_url}"
         else:
             template_file = f"licenses-tpl/{rule}.txt"
@@ -61,17 +66,21 @@ def process_licenses(json_file, dependencies_path):
         jar_path = os.path.join(dependencies_path, jar)
 
         if os.path.exists(jar_path):
-            license_source = extract_license(jar_path, jar, rule, url, license_url)
+            license_source = extract_license(jar_path, jar, rule, license_url)
             results[rule].append((url, rule, license_source))
         else:
             print(f"Warning: {jar_path} does not exist.")
 
     # Print results
     for rule, entries in results.items():
-        print(f"\nThe following components are provided under the {rule} License. See project link for details.")
+        print("\n" + "="*72)
+        print(f"Third party {rule} licenses")
+        print("="*72)
+        print(f"The following components are provided under the {rule} License. See project link for details.")
         print("The text of each license is also included in licenses/LICENSE-[project].txt.\n")
-        for url, rule, source in entries:
-            print(f"{url} -> {rule} | {source}")
+        for url, _, source in entries:
+            # print(f"    {url} -> {rule} | {source}")
+            print(f"    {url} -> {rule}")
 
 
 if __name__ == "__main__":

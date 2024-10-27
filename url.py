@@ -103,3 +103,6 @@ artifacts_path = "/home/vgalaxies/Desktop/incubator-hugegraph/install-dist/scrip
 dependency_tree_path = "dependency-tree"
 
 process_files(artifacts_path, dependency_tree_path)
+
+# input: known-dependencies.txt and dependency-tree output
+# output: urls.json

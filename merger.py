@@ -31,3 +31,6 @@ def merge_licenses(input_file, output_file):
 
 if __name__ == '__main__':
     merge_licenses('licenses.json', 'merged-licenses.json')
+
+# input: licenses.json
+# output: merged-licenses.json

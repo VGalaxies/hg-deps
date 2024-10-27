@@ -84,3 +84,6 @@ def match_licenses(licenses_file, urls_file):
 
 if __name__ == "__main__":
     match_licenses('merged-licenses.json', 'urls.json')
+
+# input: merged-licenses.json and urls.json
+# output: matched-licenses.json

@@ -1,3 +1,5 @@
+import json
+
 import scrapy
 from lxml import etree
 
@@ -8,9 +10,10 @@ class LicenseSpider(scrapy.Spider):
 
     def __init__(self, *args, **kwargs):
         super(LicenseSpider, self).__init__(*args, **kwargs)
-        # 从 urls 文件中读取 URL
-        with open('urls.txt', 'r') as file:
-            self.start_urls = [line.strip() for line in file if line.strip()]
+        # 从 urls.json 文件中读取 URL
+        with open('urls.json', 'r') as file:
+            data = json.load(file)
+            self.start_urls = [entry['url'] for entry in data if 'url' in entry]
 
 
     def parse(self, response):
@@ -57,3 +60,6 @@ class LicenseSpider(scrapy.Spider):
 
 # 要运行这个爬虫，请在命令行中使用以下命令：
 # scrapy runspider spider.py -o licenses.json
+
+# input: urls.json
+# output: licenses.json
