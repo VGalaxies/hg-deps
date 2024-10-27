@@ -87,3 +87,21 @@ if __name__ == "__main__":
     dependencies_path = "/home/vgalaxies/Desktop/incubator-hugegraph/install-dist/scripts/dependency/all_dependencies"
     os.makedirs('licenses', exist_ok=True)
     process_licenses('matched-licenses.json', dependencies_path)
+
+
+# The code attempts to obtain licenses from the following sources:
+#
+# 1. **Inside the JAR file**:
+#    - Extracts the JAR file and searches for files containing "license."
+#
+# 2. **Predefined license files**:
+#    - Checks the `licenses-predefined` directory for a matching license file.
+#
+# 3. **License URL**:
+#    - Uses the `license_url` to create a license file if none is found in the JAR or predefined directory and if the license rule isn't "Apache 2.0."
+#
+# 4. **Template license files**:
+#    - Uses a template from the `licenses-tpl` directory based on the license rule if all else fails.
+#
+# These steps ensure that each project is provided with the appropriate license information and its source is documented.
+
