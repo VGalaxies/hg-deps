@@ -33,6 +33,15 @@ multiple_license_rules = {
     "Public Domain": any_match("Public Domain"),
 }
 
+predefined_rules = {
+    "jakarta.activation-2.0.0.jar": "BSD-3-Clause",
+    "netty-tcnative-boringssl-static-2.0.36.Final.jar": "Apache 2.0",
+    "netty-tcnative-classes-2.0.46.Final.jar": "Apache 2.0",
+    "sjk-jfr5-0.5.jar": "Apache 2.0",
+    "sjk-jfr6-0.7.jar": "Apache 2.0",
+    "sjk-nps-0.9.jar": "Apache 2.0",
+}
+
 
 def load_urls(file_path):
     with open(file_path, 'r') as file:
@@ -47,7 +56,17 @@ def match_licenses(licenses_file, urls_file):
 
     results = []  # 存储结果的列表
 
-    for url, licenses in data.items():
+    for url, _ in urls.items():
+        jar_file = urls.get(url, "")
+        licenses = data.get(url)
+        if licenses is None:
+            predefined_rule = predefined_rules.get(jar_file)
+            if predefined_rule is not None:
+                results.append({"jar": jar_file, "url": url, "rule": predefined_rule})
+            else:
+                print(f"Error: No matching rule for {jar_file} {url}")
+            continue
+
         license_names = list(licenses.keys())
         matched_rule = None
 
@@ -58,7 +77,6 @@ def match_licenses(licenses_file, urls_file):
                     matched_rule = rule_name
                     break
 
-            jar_file = urls.get(url, "")  # 从 urls 中获取 jar 文件名
             if matched_rule:
                 results.append({"jar": jar_file, "url": url, "rule": matched_rule})
             else:

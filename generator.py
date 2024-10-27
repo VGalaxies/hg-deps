@@ -60,7 +60,7 @@ def process_licenses(json_file, dependencies_path):
     for item in data:
         jar = item['jar']
         url = item['url']
-        rule = item['rule']
+        rule = item.get('rule', "")
         license_url = item.get('license_url', "")
 
         jar_path = os.path.join(dependencies_path, jar)

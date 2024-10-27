@@ -1,7 +1,7 @@
 [
     {
-        "jar": "ansj_seg-5.1.6.jar",
-        "url": "https://central.sonatype.com/artifact/org.ansj/ansj_seg/5.1.6",
+        "jar": "accessors-smart-1.2.jar",
+        "url": "https://central.sonatype.com/artifact/net.minidev/accessors-smart/1.2",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -12,10 +12,16 @@
         "license_url": ""
     },
     {
-        "jar": "annotations-4.1.1.4.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.android/annotations/4.1.1.4",
+        "jar": "android-json-0.0.20131108.vaadin1.jar",
+        "url": "https://central.sonatype.com/artifact/com.vaadin.external.google/android-json/0.0.20131108.vaadin1",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+        "jar": "animal-sniffer-annotations-1.18.jar",
+        "url": "https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-annotations/1.18",
+        "rule": "MIT",
+        "license_url": ""
     },
     {
         "jar": "animal-sniffer-annotations-1.19.jar",
@@ -24,9 +30,39 @@
         "license_url": ""
     },
     {
+        "jar": "annotations-13.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.jetbrains/annotations/13.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "annotations-4.1.1.4.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.android/annotations/4.1.1.4",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+        "jar": "ansj_seg-5.1.6.jar",
+        "url": "https://central.sonatype.com/artifact/org.ansj/ansj_seg/5.1.6",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "antlr-runtime-3.5.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.antlr/antlr-runtime/3.5.2",
+        "rule": "BSD",
+        "license_url": ""
+    },
+    {
         "jar": "aopalliance-repackaged-3.0.1.jar",
         "url": "https://central.sonatype.com/artifact/org.glassfish.hk2.external/aopalliance-repackaged/3.0.1",
         "rule": "EPL 2.0"
+    },
+    {
+        "jar": "apiguardian-api-1.1.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apiguardian/apiguardian-api/1.1.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "arthas-agent-attach-3.6.4.jar",
@@ -53,52 +89,10 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
     },
     {
-        "jar": "android-json-0.0.20131108.vaadin1.jar",
-        "url": "https://central.sonatype.com/artifact/com.vaadin.external.google/android-json/0.0.20131108.vaadin1",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
-    },
-    {
-        "jar": "animal-sniffer-annotations-1.18.jar",
-        "url": "https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-annotations/1.18",
-        "rule": "MIT",
-        "license_url": ""
-    },
-    {
         "jar": "asm-6.0.jar",
         "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm/6.0",
         "rule": "BSD",
         "license_url": ""
-    },
-    {
-        "jar": "apiguardian-api-1.1.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apiguardian/apiguardian-api/1.1.0",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "asm-analysis-5.0.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-analysis/5.0.3",
-        "rule": "BSD",
-        "license_url": ""
-    },
-    {
-        "jar": "asm-commons-5.0.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-commons/5.0.3",
-        "rule": "BSD",
-        "license_url": ""
-    },
-    {
-        "jar": "accessors-smart-1.2.jar",
-        "url": "https://central.sonatype.com/artifact/net.minidev/accessors-smart/1.2",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "asm-analysis-9.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-analysis/9.2",
-        "rule": "BSD-3-Clause",
-        "license_url": "https://asm.ow2.io/license.html"
     },
     {
         "jar": "asm-7.1.jar",
@@ -107,27 +101,33 @@
         "license_url": "http://asm.ow2.org/license.html"
     },
     {
+        "jar": "asm-analysis-5.0.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-analysis/5.0.3",
+        "rule": "BSD",
+        "license_url": ""
+    },
+    {
+        "jar": "asm-analysis-9.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-analysis/9.2",
+        "rule": "BSD-3-Clause",
+        "license_url": "https://asm.ow2.io/license.html"
+    },
+    {
+        "jar": "asm-commons-5.0.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-commons/5.0.3",
+        "rule": "BSD",
+        "license_url": ""
+    },
+    {
         "jar": "asm-commons-9.2.jar",
         "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-commons/9.2",
         "rule": "BSD-3-Clause",
         "license_url": "https://asm.ow2.io/license.html"
     },
     {
-        "jar": "ast-9.0-9.0.20190305.jar",
-        "url": "https://central.sonatype.com/artifact/org.opencypher/ast-9.0/9.0.20190305",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
-    },
-    {
         "jar": "asm-tree-5.0.3.jar",
         "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-tree/5.0.3",
         "rule": "BSD",
-        "license_url": ""
-    },
-    {
-        "jar": "auto-service-annotations-1.0.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.auto.service/auto-service-annotations/1.0",
-        "rule": "Apache 2.0",
         "license_url": ""
     },
     {
@@ -137,14 +137,44 @@
         "license_url": "https://asm.ow2.io/license.html"
     },
     {
-        "jar": "bolt-1.6.4.jar",
-        "url": "https://central.sonatype.com/artifact/com.alipay.sofa/bolt/1.6.4",
+        "jar": "asm-util-5.0.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-util/5.0.3",
+        "rule": "BSD",
+        "license_url": ""
+    },
+    {
+        "jar": "assertj-core-3.19.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.assertj/assertj-core/3.19.0",
         "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "license_url": ""
+    },
+    {
+        "jar": "ast-9.0-9.0.20190305.jar",
+        "url": "https://central.sonatype.com/artifact/org.opencypher/ast-9.0/9.0.20190305",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+        "jar": "audience-annotations-0.5.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.yetus/audience-annotations/0.5.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "auto-service-annotations-1.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.auto.service/auto-service-annotations/1.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
     },
     {
         "jar": "bolt-1.6.2.jar",
         "url": "https://central.sonatype.com/artifact/com.alipay.sofa/bolt/1.6.2",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "bolt-1.6.4.jar",
+        "url": "https://central.sonatype.com/artifact/com.alipay.sofa/bolt/1.6.4",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -161,14 +191,14 @@
         "license_url": ""
     },
     {
-        "jar": "byte-buddy-agent-1.10.5.jar",
-        "url": "https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-agent/1.10.5",
+        "jar": "byte-buddy-agent-1.10.20.jar",
+        "url": "https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-agent/1.10.20",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "byte-buddy-agent-1.10.20.jar",
-        "url": "https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-agent/1.10.20",
+        "jar": "byte-buddy-agent-1.10.5.jar",
+        "url": "https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-agent/1.10.5",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -179,20 +209,14 @@
         "license_url": ""
     },
     {
-        "jar": "asm-util-5.0.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.ow2.asm/asm-util/5.0.3",
-        "rule": "BSD",
-        "license_url": ""
-    },
-    {
-        "jar": "assertj-core-3.19.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.assertj/assertj-core/3.19.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
         "jar": "caffeine-2.3.1.jar",
         "url": "https://central.sonatype.com/artifact/com.github.ben-manes.caffeine/caffeine/2.3.1",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "caffeine-2.5.6.jar",
+        "url": "https://central.sonatype.com/artifact/com.github.ben-manes.caffeine/caffeine/2.5.6",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -203,22 +227,27 @@
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "audience-annotations-0.5.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.yetus/audience-annotations/0.5.0",
+        "jar": "cassandra-driver-core-3.6.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.datastax.cassandra/cassandra-driver-core/3.6.0",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "antlr-runtime-3.5.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.antlr/antlr-runtime/3.5.2",
-        "rule": "BSD",
-        "license_url": ""
+        "jar": "checker-compat-qual-2.5.5.jar",
+        "url": "https://central.sonatype.com/artifact/org.checkerframework/checker-compat-qual/2.5.5",
+        "rule": "MIT"
     },
     {
-        "jar": "caffeine-2.5.6.jar",
-        "url": "https://central.sonatype.com/artifact/com.github.ben-manes.caffeine/caffeine/2.5.6",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "checker-qual-3.12.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.checkerframework/checker-qual/3.12.0",
+        "rule": "MIT",
+        "license_url": "http://opensource.org/licenses/MIT"
+    },
+    {
+        "jar": "checker-qual-3.5.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.checkerframework/checker-qual/3.5.0",
+        "rule": "MIT",
+        "license_url": "http://opensource.org/licenses/MIT"
     },
     {
         "jar": "chronicle-bytes-2.20.111.jar",
@@ -257,63 +286,16 @@
         "license_url": "http://opensource.org/licenses/MIT"
     },
     {
+        "jar": "commons-beanutils-1.9.4.jar",
+        "url": "https://central.sonatype.com/artifact/commons-beanutils/commons-beanutils/1.9.4",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "commons-cli-1.1.jar",
         "url": "https://central.sonatype.com/artifact/commons-cli/commons-cli/1.1",
         "rule": "Apache 2.0",
         "license_url": "/LICENSE.txt"
-    },
-    {
-        "jar": "cassandra-driver-core-3.6.0.jar",
-        "url": "https://central.sonatype.com/artifact/com.datastax.cassandra/cassandra-driver-core/3.6.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "checker-compat-qual-2.5.5.jar",
-        "url": "https://central.sonatype.com/artifact/org.checkerframework/checker-compat-qual/2.5.5",
-        "rule": "MIT"
-    },
-    {
-        "jar": "checker-qual-3.5.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.checkerframework/checker-qual/3.5.0",
-        "rule": "MIT",
-        "license_url": "http://opensource.org/licenses/MIT"
-    },
-    {
-        "jar": "commons-codec-1.13.jar",
-        "url": "https://central.sonatype.com/artifact/commons-codec/commons-codec/1.13",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "checker-qual-3.12.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.checkerframework/checker-qual/3.12.0",
-        "rule": "MIT",
-        "license_url": "http://opensource.org/licenses/MIT"
-    },
-    {
-        "jar": "commons-codec-1.9.jar",
-        "url": "https://central.sonatype.com/artifact/commons-codec/commons-codec/1.9",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "annotations-13.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.jetbrains/annotations/13.0",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "commons-configuration2-2.8.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.8.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "commons-io-2.12.0.jar",
-        "url": "https://central.sonatype.com/artifact/commons-io/commons-io/2.12.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
     },
     {
         "jar": "commons-codec-1.11.jar",
@@ -322,14 +304,26 @@
         "license_url": ""
     },
     {
-        "jar": "commons-beanutils-1.9.4.jar",
-        "url": "https://central.sonatype.com/artifact/commons-beanutils/commons-beanutils/1.9.4",
+        "jar": "commons-codec-1.13.jar",
+        "url": "https://central.sonatype.com/artifact/commons-codec/commons-codec/1.13",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "commons-compress-1.21.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.21",
+        "jar": "commons-codec-1.15.jar",
+        "url": "https://central.sonatype.com/artifact/commons-codec/commons-codec/1.15",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "commons-codec-1.9.jar",
+        "url": "https://central.sonatype.com/artifact/commons-codec/commons-codec/1.9",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "commons-collections-3.2.2.jar",
+        "url": "https://central.sonatype.com/artifact/commons-collections/commons-collections/3.2.2",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -340,8 +334,26 @@
         "license_url": ""
     },
     {
+        "jar": "commons-compress-1.21.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.21",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "commons-configuration-1.10.jar",
         "url": "https://central.sonatype.com/artifact/commons-configuration/commons-configuration/1.10",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "commons-configuration2-2.8.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.8.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "commons-io-2.12.0.jar",
+        "url": "https://central.sonatype.com/artifact/commons-io/commons-io/2.12.0",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -358,8 +370,8 @@
         "license_url": ""
     },
     {
-        "jar": "commons-lang3-3.13.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.13.0",
+        "jar": "commons-lang-2.6.jar",
+        "url": "https://central.sonatype.com/artifact/commons-lang/commons-lang/2.6",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -370,14 +382,38 @@
         "license_url": ""
     },
     {
+        "jar": "commons-lang3-3.12.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.12.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "commons-lang3-3.13.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.13.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "commons-logging-1.1.1.jar",
+        "url": "https://central.sonatype.com/artifact/commons-logging/commons-logging/1.1.1",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "commons-logging-1.2.jar",
+        "url": "https://central.sonatype.com/artifact/commons-logging/commons-logging/1.2",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "commons-math3-3.2.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-math3/3.2",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "commons-collections-3.2.2.jar",
-        "url": "https://central.sonatype.com/artifact/commons-collections/commons-collections/3.2.2",
+        "jar": "commons-text-1.10.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-text/1.10.0",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -400,28 +436,21 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "disruptor-3.4.1.jar",
-        "url": "https://central.sonatype.com/artifact/com.lmax/disruptor/3.4.1",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
         "jar": "disruptor-3.3.7.jar",
         "url": "https://central.sonatype.com/artifact/com.lmax/disruptor/3.3.7",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "commons-codec-1.15.jar",
-        "url": "https://central.sonatype.com/artifact/commons-codec/commons-codec/1.15",
+        "jar": "disruptor-3.4.1.jar",
+        "url": "https://central.sonatype.com/artifact/com.lmax/disruptor/3.4.1",
         "rule": "Apache 2.0",
-        "license_url": ""
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "commons-text-1.10.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-text/1.10.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
+        "jar": "eclipse-collections-11.1.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.eclipse.collections/eclipse-collections/11.1.0",
+        "rule": "EDL 1.0"
     },
     {
         "jar": "eclipse-collections-api-11.1.0.jar",
@@ -429,9 +458,22 @@
         "rule": "EDL 1.0"
     },
     {
-        "jar": "eclipse-collections-11.1.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.eclipse.collections/eclipse-collections/11.1.0",
-        "rule": "EDL 1.0"
+        "jar": "error_prone_annotations-2.10.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.errorprone/error_prone_annotations/2.10.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "error_prone_annotations-2.3.4.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.errorprone/error_prone_annotations/2.3.4",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "error_prone_annotations-2.4.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.errorprone/error_prone_annotations/2.4.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "exp4j-0.4.8.jar",
@@ -452,14 +494,14 @@
         "license_url": "http://apache.org/licenses/LICENSE-2.0"
     },
     {
-        "jar": "error_prone_annotations-2.4.0.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.errorprone/error_prone_annotations/2.4.0",
+        "jar": "failureaccess-1.0.1.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.guava/failureaccess/1.0.1",
         "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "license_url": ""
     },
     {
-        "jar": "error_prone_annotations-2.10.0.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.errorprone/error_prone_annotations/2.10.0",
+        "jar": "fastjson-1.2.83.jar",
+        "url": "https://central.sonatype.com/artifact/com.alibaba/fastjson/1.2.83",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -494,12 +536,6 @@
         "license_url": ""
     },
     {
-        "jar": "fastjson-1.2.83.jar",
-        "url": "https://central.sonatype.com/artifact/com.alibaba/fastjson/1.2.83",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
         "jar": "gremlin-core-3.5.1.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.tinkerpop/gremlin-core/3.5.1",
         "rule": "Apache 2.0",
@@ -524,12 +560,6 @@
         "license_url": ""
     },
     {
-        "jar": "commons-logging-1.1.1.jar",
-        "url": "https://central.sonatype.com/artifact/commons-logging/commons-logging/1.1.1",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
         "jar": "gremlin-server-3.5.1.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.tinkerpop/gremlin-server/3.5.1",
         "rule": "Apache 2.0",
@@ -548,22 +578,16 @@
         "license_url": ""
     },
     {
-        "jar": "grizzly-http-3.0.1.jar",
-        "url": "https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-http/3.0.1",
-        "rule": "EPL 2.0",
-        "license_url": ""
-    },
-    {
         "jar": "grizzly-framework-3.0.1.jar",
         "url": "https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-framework/3.0.1",
         "rule": "EPL 2.0",
         "license_url": ""
     },
     {
-        "jar": "error_prone_annotations-2.3.4.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.errorprone/error_prone_annotations/2.3.4",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "grizzly-http-3.0.1.jar",
+        "url": "https://central.sonatype.com/artifact/org.glassfish.grizzly/grizzly-http/3.0.1",
+        "rule": "EPL 2.0",
+        "license_url": ""
     },
     {
         "jar": "grizzly-http-server-3.0.1.jar",
@@ -590,14 +614,20 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
+        "jar": "groovy-console-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-console/2.5.14",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
         "jar": "groovy-groovysh-2.5.14-indy.jar",
         "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-groovysh/2.5.14",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "groovy-console-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-console/2.5.14",
+        "jar": "groovy-json-2.5.14-indy.jar",
+        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-json/2.5.14",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -608,10 +638,22 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "commons-lang-2.6.jar",
-        "url": "https://central.sonatype.com/artifact/commons-lang/commons-lang/2.6",
+        "jar": "groovy-swing-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-swing/2.5.14",
         "rule": "Apache 2.0",
-        "license_url": ""
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "groovy-templates-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-templates/2.5.14",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "groovy-xml-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-xml/2.5.14",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "grpc-api-1.28.1.jar",
@@ -620,14 +662,14 @@
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-        "jar": "groovy-json-2.5.14-indy.jar",
-        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-json/2.5.14",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
         "jar": "grpc-api-1.39.0.jar",
         "url": "https://central.sonatype.com/artifact/io.grpc/grpc-api/1.39.0",
+        "rule": "Apache 2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0"
+    },
+    {
+        "jar": "grpc-api-1.47.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-api/1.47.0",
         "rule": "Apache 2.0",
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
@@ -638,28 +680,16 @@
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-        "jar": "groovy-swing-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-swing/2.5.14",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "grpc-api-1.47.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-api/1.47.0",
+        "jar": "grpc-context-1.39.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-context/1.39.0",
         "rule": "Apache 2.0",
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-        "jar": "groovy-xml-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-xml/2.5.14",
+        "jar": "grpc-context-1.47.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-context/1.47.0",
         "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "groovy-templates-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.codehaus.groovy/groovy-templates/2.5.14",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
         "jar": "grpc-core-1.28.1.jar",
@@ -674,38 +704,8 @@
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-        "jar": "grpc-context-1.39.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-context/1.39.0",
-        "rule": "Apache 2.0",
-        "license_url": "https://opensource.org/licenses/Apache-2.0"
-    },
-    {
-        "jar": "commons-lang3-3.12.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.12.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
         "jar": "grpc-core-1.47.0.jar",
         "url": "https://central.sonatype.com/artifact/io.grpc/grpc-core/1.47.0",
-        "rule": "Apache 2.0",
-        "license_url": "https://opensource.org/licenses/Apache-2.0"
-    },
-    {
-        "jar": "grpc-context-1.47.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-context/1.47.0",
-        "rule": "Apache 2.0",
-        "license_url": "https://opensource.org/licenses/Apache-2.0"
-    },
-    {
-        "jar": "grpc-netty-shaded-1.28.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-netty-shaded/1.28.0",
-        "rule": "Apache 2.0",
-        "license_url": "https://opensource.org/licenses/Apache-2.0"
-    },
-    {
-        "jar": "grpc-netty-1.39.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-netty/1.39.0",
         "rule": "Apache 2.0",
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
@@ -716,8 +716,20 @@
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
+        "jar": "grpc-netty-1.39.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-netty/1.39.0",
+        "rule": "Apache 2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0"
+    },
+    {
         "jar": "grpc-netty-1.47.0.jar",
         "url": "https://central.sonatype.com/artifact/io.grpc/grpc-netty/1.47.0",
+        "rule": "Apache 2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0"
+    },
+    {
+        "jar": "grpc-netty-shaded-1.28.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-netty-shaded/1.28.0",
         "rule": "Apache 2.0",
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
@@ -740,20 +752,20 @@
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
+        "jar": "grpc-protobuf-1.39.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-protobuf/1.39.0",
+        "rule": "Apache 2.0",
+        "license_url": "https://opensource.org/licenses/Apache-2.0"
+    },
+    {
         "jar": "grpc-protobuf-lite-1.28.0.jar",
         "url": "https://central.sonatype.com/artifact/io.grpc/grpc-protobuf-lite/1.28.0",
         "rule": "Apache 2.0",
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-        "jar": "grpc-spring-boot-starter-4.5.5.jar",
-        "url": "https://central.sonatype.com/artifact/io.github.lognet/grpc-spring-boot-starter/4.5.5",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "grpc-protobuf-1.39.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-protobuf/1.39.0",
+        "jar": "grpc-protobuf-lite-1.39.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-protobuf-lite/1.39.0",
         "rule": "Apache 2.0",
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
@@ -764,10 +776,10 @@
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-        "jar": "grpc-protobuf-lite-1.39.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.grpc/grpc-protobuf-lite/1.39.0",
+        "jar": "grpc-spring-boot-starter-4.5.5.jar",
+        "url": "https://central.sonatype.com/artifact/io.github.lognet/grpc-spring-boot-starter/4.5.5",
         "rule": "Apache 2.0",
-        "license_url": "https://opensource.org/licenses/Apache-2.0"
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "grpc-stub-1.28.0.jar",
@@ -788,6 +800,30 @@
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
+        "jar": "gson-2.8.6.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.code.gson/gson/2.8.6",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "gson-2.8.9.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.code.gson/gson/2.8.9",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "guava-27.0-jre.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.guava/guava/27.0-jre",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "guava-30.0-jre.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.guava/guava/30.0-jre",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "guava-30.1-android.jar",
         "url": "https://central.sonatype.com/artifact/com.google.guava/guava/30.1-android",
         "rule": "Apache 2.0",
@@ -800,9 +836,15 @@
         "license_url": ""
     },
     {
-        "jar": "guava-30.0-jre.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.guava/guava/30.0-jre",
-        "rule": "Apache 2.0",
+        "jar": "hamcrest-2.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.hamcrest/hamcrest/2.2",
+        "rule": "BSD-3-Clause",
+        "license_url": "http://opensource.org/licenses/BSD-3-Clause"
+    },
+    {
+        "jar": "hamcrest-core-1.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.hamcrest/hamcrest-core/1.3",
+        "rule": "BSD",
         "license_url": ""
     },
     {
@@ -818,22 +860,15 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "guava-27.0-jre.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.guava/guava/27.0-jre",
-        "rule": "Apache 2.0",
-        "license_url": ""
+        "jar": "HdrHistogram-2.1.12.jar",
+        "url": "https://central.sonatype.com/artifact/org.hdrhistogram/HdrHistogram/2.1.12",
+        "rule": "CC0 1.0"
     },
     {
-        "jar": "gson-2.8.6.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.code.gson/gson/2.8.6",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "gson-2.8.9.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.code.gson/gson/2.8.9",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "HdrHistogram-2.1.9.jar",
+        "url": "https://central.sonatype.com/artifact/org.hdrhistogram/HdrHistogram/2.1.9",
+        "rule": "CC0 1.0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
         "jar": "hessian-3.3.6.jar",
@@ -846,6 +881,12 @@
         "url": "https://central.sonatype.com/artifact/com.alipay.sofa/hessian/3.3.7",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "high-scale-lib-1.0.6.jar",
+        "url": "https://central.sonatype.com/artifact/com.boundary/high-scale-lib/1.0.6",
+        "rule": "MIT",
+        "license_url": "http://www.opensource.org/licenses/mit-license.php"
     },
     {
         "jar": "hk2-api-3.0.1.jar",
@@ -861,18 +902,6 @@
         "jar": "hk2-utils-3.0.1.jar",
         "url": "https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-utils/3.0.1",
         "rule": "EPL 2.0"
-    },
-    {
-        "jar": "HdrHistogram-2.1.9.jar",
-        "url": "https://central.sonatype.com/artifact/org.hdrhistogram/HdrHistogram/2.1.9",
-        "rule": "CC0 1.0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/"
-    },
-    {
-        "jar": "high-scale-lib-1.0.6.jar",
-        "url": "https://central.sonatype.com/artifact/com.boundary/high-scale-lib/1.0.6",
-        "rule": "MIT",
-        "license_url": "http://www.opensource.org/licenses/mit-license.php"
     },
     {
         "jar": "hppc-0.7.1.jar",
@@ -893,9 +922,16 @@
         "license_url": ""
     },
     {
-        "jar": "HdrHistogram-2.1.12.jar",
-        "url": "https://central.sonatype.com/artifact/org.hdrhistogram/HdrHistogram/2.1.12",
-        "rule": "CC0 1.0"
+        "jar": "httpclient-4.5.13.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.httpcomponents/httpclient/4.5.13",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "httpcore-4.4.13.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.httpcomponents/httpcore/4.4.13",
+        "rule": "Apache 2.0",
+        "license_url": ""
     },
     {
         "jar": "ikanalyzer-2012_u6.jar",
@@ -910,10 +946,10 @@
         "license_url": ""
     },
     {
-        "jar": "failureaccess-1.0.1.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.guava/failureaccess/1.0.1",
+        "jar": "j2objc-annotations-1.3.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.j2objc/j2objc-annotations/1.3",
         "rule": "Apache 2.0",
-        "license_url": ""
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "jackson-annotations-2.12.6.jar",
@@ -928,22 +964,16 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "hamcrest-2.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.hamcrest/hamcrest/2.2",
-        "rule": "BSD-3-Clause",
-        "license_url": "http://opensource.org/licenses/BSD-3-Clause"
+        "jar": "jackson-annotations-2.13.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.13.2",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "jackson-annotations-2.14.0-rc1.jar",
         "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.14.0-rc1",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "commons-logging-1.2.jar",
-        "url": "https://central.sonatype.com/artifact/commons-logging/commons-logging/1.2",
-        "rule": "Apache 2.0",
-        "license_url": ""
     },
     {
         "jar": "jackson-core-2.12.6.jar",
@@ -954,6 +984,12 @@
     {
         "jar": "jackson-core-2.13.0.jar",
         "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.13.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "jackson-core-2.13.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.13.2",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -976,16 +1012,22 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
+        "jar": "jackson-databind-2.13.2.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.13.2.2",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
         "jar": "jackson-databind-2.14.0-rc1.jar",
         "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.14.0-rc1",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "jackson-annotations-2.13.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.13.2",
+        "jar": "jackson-databind-2.15.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.15.2",
         "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "jackson-dataformat-yaml-2.9.3.jar",
@@ -994,26 +1036,20 @@
         "license_url": ""
     },
     {
-        "jar": "jackson-core-2.13.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.13.2",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
         "jar": "jackson-datatype-jdk8-2.12.6.jar",
         "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.12.6",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "jackson-databind-2.13.2.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.13.2.2",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
         "jar": "jackson-datatype-jsr310-2.12.6.jar",
         "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.12.6",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "jackson-datatype-jsr310-2.15.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.15.2",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1024,8 +1060,8 @@
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "jackson-databind-2.15.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.15.2",
+        "jar": "jackson-jakarta-rs-json-provider-2.15.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-json-provider/2.15.2",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -1042,28 +1078,16 @@
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
+        "jar": "jackson-module-jakarta-xmlbind-annotations-2.15.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.module/jackson-module-jakarta-xmlbind-annotations/2.15.2",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
         "jar": "jackson-module-jaxb-annotations-2.14.0-rc1.jar",
         "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.14.0-rc1",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "jackson-jakarta-rs-json-provider-2.15.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-json-provider/2.15.2",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "jackson-datatype-jsr310-2.15.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.15.2",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "httpcore-4.4.13.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.httpcomponents/httpcore/4.4.13",
-        "rule": "Apache 2.0",
-        "license_url": ""
     },
     {
         "jar": "jackson-module-parameter-names-2.12.6.jar",
@@ -1072,16 +1096,31 @@
         "license_url": ""
     },
     {
+        "jar": "jakarta.activation-2.0.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.sun.activation/jakarta.activation/2.0.0",
+        "rule": "BSD-3-Clause"
+    },
+    {
         "jar": "jakarta.activation-2.0.1.jar",
         "url": "https://central.sonatype.com/artifact/com.sun.activation/jakarta.activation/2.0.1",
         "rule": "EDL 1.0",
         "license_url": ""
     },
     {
-        "jar": "jackson-module-jakarta-xmlbind-annotations-2.15.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.fasterxml.jackson.module/jackson-module-jakarta-xmlbind-annotations/2.15.2",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "jakarta.activation-api-1.2.2.jar",
+        "url": "https://central.sonatype.com/artifact/jakarta.activation/jakarta.activation-api/1.2.2",
+        "rule": "EDL 1.0",
+        "license_url": ""
+    },
+    {
+        "jar": "jakarta.annotation-api-1.3.5.jar",
+        "url": "https://central.sonatype.com/artifact/jakarta.annotation/jakarta.annotation-api/1.3.5",
+        "rule": "EPL 2.0"
+    },
+    {
+        "jar": "jakarta.annotation-api-2.0.0.jar",
+        "url": "https://central.sonatype.com/artifact/jakarta.annotation/jakarta.annotation-api/2.0.0",
+        "rule": "EPL 2.0"
     },
     {
         "jar": "jakarta.inject-api-2.0.0.jar",
@@ -1090,15 +1129,14 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "jakarta.annotation-api-2.0.0.jar",
-        "url": "https://central.sonatype.com/artifact/jakarta.annotation/jakarta.annotation-api/2.0.0",
+        "jar": "jakarta.servlet-api-4.0.4.jar",
+        "url": "https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/4.0.4",
         "rule": "EPL 2.0"
     },
     {
-        "jar": "j2objc-annotations-1.3.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.j2objc/j2objc-annotations/1.3",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "jakarta.servlet-api-5.0.0.jar",
+        "url": "https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/5.0.0",
+        "rule": "EPL 2.0"
     },
     {
         "jar": "jakarta.validation-api-3.0.0.jar",
@@ -1107,20 +1145,26 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "jakarta.servlet-api-5.0.0.jar",
-        "url": "https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/5.0.0",
+        "jar": "jakarta.websocket-api-1.1.2.jar",
+        "url": "https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-api/1.1.2",
         "rule": "EPL 2.0"
-    },
-    {
-        "jar": "hamcrest-core-1.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.hamcrest/hamcrest-core/1.3",
-        "rule": "BSD",
-        "license_url": ""
     },
     {
         "jar": "jakarta.ws.rs-api-3.0.0.jar",
         "url": "https://central.sonatype.com/artifact/jakarta.ws.rs/jakarta.ws.rs-api/3.0.0",
         "rule": "EPL 2.0"
+    },
+    {
+        "jar": "jakarta.xml.bind-api-2.3.3.jar",
+        "url": "https://central.sonatype.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3",
+        "rule": "EDL 1.0",
+        "license_url": ""
+    },
+    {
+        "jar": "jakarta.xml.bind-api-3.0.0.jar",
+        "url": "https://central.sonatype.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api/3.0.0",
+        "rule": "EDL 1.0",
+        "license_url": ""
     },
     {
         "jar": "jamm-0.3.2.jar",
@@ -1135,16 +1179,15 @@
         "license_url": "http://www2.cs.tum.edu/projects/cup/install.php"
     },
     {
-        "jar": "jakarta.xml.bind-api-3.0.0.jar",
-        "url": "https://central.sonatype.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api/3.0.0",
-        "rule": "EDL 1.0",
-        "license_url": ""
-    },
-    {
         "jar": "javapoet-1.8.0.jar",
         "url": "https://central.sonatype.com/artifact/com.squareup/javapoet/1.8.0",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "javassist-3.21.0-GA.jar",
+        "url": "https://central.sonatype.com/artifact/org.javassist/javassist/3.21.0-GA",
+        "rule": "Apache 2.0"
     },
     {
         "jar": "javassist-3.24.0-GA.jar",
@@ -1152,9 +1195,9 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jakarta.servlet-api-4.0.4.jar",
-        "url": "https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/4.0.4",
-        "rule": "EPL 2.0"
+        "jar": "javassist-3.28.0-GA.jar",
+        "url": "https://central.sonatype.com/artifact/org.javassist/javassist/3.28.0-GA",
+        "rule": "Apache 2.0"
     },
     {
         "jar": "javatuples-1.2.jar",
@@ -1163,25 +1206,22 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "javassist-3.28.0-GA.jar",
-        "url": "https://central.sonatype.com/artifact/org.javassist/javassist/3.28.0-GA",
-        "rule": "Apache 2.0"
-    },
-    {
-        "jar": "javassist-3.21.0-GA.jar",
-        "url": "https://central.sonatype.com/artifact/org.javassist/javassist/3.21.0-GA",
-        "rule": "Apache 2.0"
-    },
-    {
-        "jar": "httpclient-4.5.13.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.httpcomponents/httpclient/4.5.13",
-        "rule": "Apache 2.0",
+        "jar": "javax.activation-api-1.2.0.jar",
+        "url": "https://central.sonatype.com/artifact/javax.activation/javax.activation-api/1.2.0",
+        "rule": "CDDL",
         "license_url": ""
     },
     {
-        "jar": "jakarta.websocket-api-1.1.2.jar",
-        "url": "https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-api/1.1.2",
-        "rule": "EPL 2.0"
+        "jar": "javax.annotation-api-1.3.2.jar",
+        "url": "https://central.sonatype.com/artifact/javax.annotation/javax.annotation-api/1.3.2",
+        "rule": "CDDL",
+        "license_url": "https://github.com/javaee/javax.annotation/blob/master/LICENSE"
+    },
+    {
+        "jar": "javax.inject-1.jar",
+        "url": "https://central.sonatype.com/artifact/javax.inject/javax.inject/1",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "javax.json-1.0.jar",
@@ -1200,6 +1240,11 @@
         "rule": "Apache 2.0"
     },
     {
+        "jar": "jaxb-api-2.3.1.jar",
+        "url": "https://central.sonatype.com/artifact/javax.xml.bind/jaxb-api/2.3.1",
+        "rule": "CDDL"
+    },
+    {
         "jar": "jaxb-core-3.0.2.jar",
         "url": "https://central.sonatype.com/artifact/com.sun.xml.bind/jaxb-core/3.0.2",
         "rule": "EDL 1.0",
@@ -1212,10 +1257,10 @@
         "license_url": ""
     },
     {
-        "jar": "jakarta.activation-api-1.2.2.jar",
-        "url": "https://central.sonatype.com/artifact/jakarta.activation/jakarta.activation-api/1.2.2",
-        "rule": "EDL 1.0",
-        "license_url": ""
+        "jar": "jbcrypt-0.4.jar",
+        "url": "https://central.sonatype.com/artifact/org.mindrot/jbcrypt/0.4",
+        "rule": "ISC",
+        "license_url": "https://opensource.org/licenses/isc-license"
     },
     {
         "jar": "jcabi-log-0.14.jar",
@@ -1230,16 +1275,16 @@
         "license_url": ""
     },
     {
-        "jar": "jbcrypt-0.4.jar",
-        "url": "https://central.sonatype.com/artifact/org.mindrot/jbcrypt/0.4",
-        "rule": "ISC",
-        "license_url": "https://opensource.org/licenses/isc-license"
-    },
-    {
         "jar": "jcip-annotations-1.0-1.jar",
         "url": "https://central.sonatype.com/artifact/com.github.stephenc.jcip/jcip-annotations/1.0-1",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "jcl-over-slf4j-1.7.25.jar",
+        "url": "https://central.sonatype.com/artifact/org.slf4j/jcl-over-slf4j/1.7.25",
+        "rule": "MIT",
+        "license_url": ""
     },
     {
         "jar": "jcommander-1.30.jar",
@@ -1258,12 +1303,6 @@
         "url": "https://central.sonatype.com/artifact/org.jctools/jctools-core/2.1.1",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "javax.activation-api-1.2.0.jar",
-        "url": "https://central.sonatype.com/artifact/javax.activation/javax.activation-api/1.2.0",
-        "rule": "CDDL",
-        "license_url": ""
     },
     {
         "jar": "jctools-core-3.1.0.jar",
@@ -1302,13 +1341,13 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jersey-entity-filtering-3.0.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.glassfish.jersey.ext/jersey-entity-filtering/3.0.3",
+        "jar": "jersey-container-servlet-core-3.0.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet-core/3.0.3",
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jersey-container-servlet-core-3.0.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.glassfish.jersey.containers/jersey-container-servlet-core/3.0.3",
+        "jar": "jersey-entity-filtering-3.0.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.glassfish.jersey.ext/jersey-entity-filtering/3.0.3",
         "rule": "Apache 2.0"
     },
     {
@@ -1322,19 +1361,8 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jcl-over-slf4j-1.7.25.jar",
-        "url": "https://central.sonatype.com/artifact/org.slf4j/jcl-over-slf4j/1.7.25",
-        "rule": "MIT",
-        "license_url": ""
-    },
-    {
         "jar": "jersey-media-json-jackson-3.0.3.jar",
         "url": "https://central.sonatype.com/artifact/org.glassfish.jersey.media/jersey-media-json-jackson/3.0.3",
-        "rule": "Apache 2.0"
-    },
-    {
-        "jar": "jersey-test-framework-core-3.0.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.glassfish.jersey.test-framework/jersey-test-framework-core/3.0.3",
         "rule": "Apache 2.0"
     },
     {
@@ -1343,15 +1371,20 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jetcd-common-0.5.9.jar",
-        "url": "https://central.sonatype.com/artifact/io.etcd/jetcd-common/0.5.9",
-        "rule": "Apache 2.0",
-        "license_url": ""
+        "jar": "jersey-test-framework-core-3.0.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.glassfish.jersey.test-framework/jersey-test-framework-core/3.0.3",
+        "rule": "Apache 2.0"
     },
     {
         "jar": "jersey-test-framework-provider-grizzly2-3.0.3.jar",
         "url": "https://central.sonatype.com/artifact/org.glassfish.jersey.test-framework.providers/jersey-test-framework-provider-grizzly2/3.0.3",
         "rule": "Apache 2.0"
+    },
+    {
+        "jar": "jetcd-common-0.5.9.jar",
+        "url": "https://central.sonatype.com/artifact/io.etcd/jetcd-common/0.5.9",
+        "rule": "Apache 2.0",
+        "license_url": ""
     },
     {
         "jar": "jetcd-core-0.5.9.jar",
@@ -1373,17 +1406,6 @@
         "jar": "jetty-continuation-9.4.46.v20220331.jar",
         "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-continuation/9.4.46.v20220331",
         "rule": "Apache 2.0"
-    },
-    {
-        "jar": "jakarta.annotation-api-1.3.5.jar",
-        "url": "https://central.sonatype.com/artifact/jakarta.annotation/jakarta.annotation-api/1.3.5",
-        "rule": "EPL 2.0"
-    },
-    {
-        "jar": "jakarta.xml.bind-api-2.3.3.jar",
-        "url": "https://central.sonatype.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api/2.3.3",
-        "rule": "EDL 1.0",
-        "license_url": ""
     },
     {
         "jar": "jetty-http-9.4.46.v20220331.jar",
@@ -1411,13 +1433,13 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jetty-servlets-9.4.46.v20220331.jar",
-        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-servlets/9.4.46.v20220331",
+        "jar": "jetty-servlet-9.4.46.v20220331.jar",
+        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-servlet/9.4.46.v20220331",
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jetty-util-ajax-9.4.46.v20220331.jar",
-        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-util-ajax/9.4.46.v20220331",
+        "jar": "jetty-servlets-9.4.46.v20220331.jar",
+        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-servlets/9.4.46.v20220331",
         "rule": "Apache 2.0"
     },
     {
@@ -1426,9 +1448,25 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jetty-servlet-9.4.46.v20220331.jar",
-        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-servlet/9.4.46.v20220331",
+        "jar": "jetty-util-ajax-9.4.46.v20220331.jar",
+        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-util-ajax/9.4.46.v20220331",
         "rule": "Apache 2.0"
+    },
+    {
+        "jar": "jetty-webapp-9.4.46.v20220331.jar",
+        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-webapp/9.4.46.v20220331",
+        "rule": "Apache 2.0"
+    },
+    {
+        "jar": "jetty-xml-9.4.46.v20220331.jar",
+        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-xml/9.4.46.v20220331",
+        "rule": "Apache 2.0"
+    },
+    {
+        "jar": "jffi-1.2.16-native.jar",
+        "url": "https://central.sonatype.com/artifact/com.github.jnr/jffi/1.2.16",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "jflex-1.8.2.jar",
@@ -1443,24 +1481,8 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "jetty-xml-9.4.46.v20220331.jar",
-        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-xml/9.4.46.v20220331",
-        "rule": "Apache 2.0"
-    },
-    {
-        "jar": "jetty-webapp-9.4.46.v20220331.jar",
-        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-webapp/9.4.46.v20220331",
-        "rule": "Apache 2.0"
-    },
-    {
-        "jar": "jffi-1.2.16-native.jar",
-        "url": "https://central.sonatype.com/artifact/com.github.jnr/jffi/1.2.16",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "jjwt-jackson-0.11.5.jar",
-        "url": "https://central.sonatype.com/artifact/io.jsonwebtoken/jjwt-jackson/0.11.5",
+        "jar": "jjwt-api-0.11.5.jar",
+        "url": "https://central.sonatype.com/artifact/io.jsonwebtoken/jjwt-api/0.11.5",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1471,10 +1493,26 @@
         "license_url": ""
     },
     {
-        "jar": "jjwt-api-0.11.5.jar",
-        "url": "https://central.sonatype.com/artifact/io.jsonwebtoken/jjwt-api/0.11.5",
+        "jar": "jjwt-jackson-0.11.5.jar",
+        "url": "https://central.sonatype.com/artifact/io.jsonwebtoken/jjwt-jackson/0.11.5",
         "rule": "Apache 2.0",
         "license_url": ""
+    },
+    {
+        "jar": "jline-2.14.6.jar",
+        "url": "https://central.sonatype.com/artifact/jline/jline/2.14.6",
+        "rule": "BSD",
+        "license_url": "http://www.opensource.org/licenses/bsd-license.php"
+    },
+    {
+        "jar": "jna-5.12.1.jar",
+        "url": "https://central.sonatype.com/artifact/net.java.dev.jna/jna/5.12.1",
+        "rule": "Apache 2.0"
+    },
+    {
+        "jar": "jna-5.5.0.jar",
+        "url": "https://central.sonatype.com/artifact/net.java.dev.jna/jna/5.5.0",
+        "rule": "Apache 2.0"
     },
     {
         "jar": "jna-5.7.0.jar",
@@ -1482,14 +1520,22 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "jaxb-api-2.3.1.jar",
-        "url": "https://central.sonatype.com/artifact/javax.xml.bind/jaxb-api/2.3.1",
-        "rule": "CDDL"
+        "jar": "jnr-ffi-2.1.7.jar",
+        "url": "https://central.sonatype.com/artifact/com.github.jnr/jnr-ffi/2.1.7",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "jna-5.12.1.jar",
-        "url": "https://central.sonatype.com/artifact/net.java.dev.jna/jna/5.12.1",
-        "rule": "Apache 2.0"
+        "jar": "jnr-x86asm-1.0.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.github.jnr/jnr-x86asm/1.0.2",
+        "rule": "MIT",
+        "license_url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    {
+        "jar": "joda-time-2.10.8.jar",
+        "url": "https://central.sonatype.com/artifact/joda-time/joda-time/2.10.8",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "jraft-core-1.3.11.jar",
@@ -1504,17 +1550,6 @@
         "license_url": ""
     },
     {
-        "jar": "jnr-ffi-2.1.7.jar",
-        "url": "https://central.sonatype.com/artifact/com.github.jnr/jnr-ffi/2.1.7",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "jna-5.5.0.jar",
-        "url": "https://central.sonatype.com/artifact/net.java.dev.jna/jna/5.5.0",
-        "rule": "Apache 2.0"
-    },
-    {
         "jar": "jraft-core-1.3.9.jar",
         "url": "https://central.sonatype.com/artifact/com.alipay.sofa/jraft-core/1.3.9",
         "rule": "Apache 2.0",
@@ -1527,16 +1562,10 @@
         "license_url": "http://json.org/license.html"
     },
     {
-        "jar": "joda-time-2.10.8.jar",
-        "url": "https://central.sonatype.com/artifact/joda-time/joda-time/2.10.8",
+        "jar": "jsonassert-1.5.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.skyscreamer/jsonassert/1.5.0",
         "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "jline-2.14.6.jar",
-        "url": "https://central.sonatype.com/artifact/jline/jline/2.14.6",
-        "rule": "BSD",
-        "license_url": "http://www.opensource.org/licenses/bsd-license.php"
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "json-path-2.5.0.jar",
@@ -1545,20 +1574,8 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "jnr-x86asm-1.0.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.github.jnr/jnr-x86asm/1.0.2",
-        "rule": "MIT",
-        "license_url": "http://www.opensource.org/licenses/mit-license.php"
-    },
-    {
         "jar": "json-simple-1.1.jar",
         "url": "https://central.sonatype.com/artifact/com.googlecode.json-simple/json-simple/1.1",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "jsr305-3.0.1.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.code.findbugs/jsr305/3.0.1",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -1569,22 +1586,34 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
+        "jar": "jsr305-3.0.1.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.code.findbugs/jsr305/3.0.1",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "jsr305-3.0.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.code.findbugs/jsr305/3.0.2",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
         "jar": "jul-to-slf4j-1.7.36.jar",
         "url": "https://central.sonatype.com/artifact/org.slf4j/jul-to-slf4j/1.7.36",
         "rule": "MIT",
         "license_url": ""
     },
     {
-        "jar": "jsonassert-1.5.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.skyscreamer/jsonassert/1.5.0",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "junit-4.13.1.jar",
+        "url": "https://central.sonatype.com/artifact/junit/junit/4.13.1",
+        "rule": "EPL 1.0",
+        "license_url": "http://www.eclipse.org/legal/epl-v10.html"
     },
     {
-        "jar": "javax.inject-1.jar",
-        "url": "https://central.sonatype.com/artifact/javax.inject/javax.inject/1",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "junit-4.13.2.jar",
+        "url": "https://central.sonatype.com/artifact/junit/junit/4.13.2",
+        "rule": "EPL 1.0",
+        "license_url": "http://www.eclipse.org/legal/epl-v10.html"
     },
     {
         "jar": "junit-jupiter-5.7.2.jar",
@@ -1593,14 +1622,32 @@
         "license_url": "https://www.eclipse.org/legal/epl-v20.html"
     },
     {
-        "jar": "javax.annotation-api-1.3.2.jar",
-        "url": "https://central.sonatype.com/artifact/javax.annotation/javax.annotation-api/1.3.2",
-        "rule": "CDDL",
-        "license_url": "https://github.com/javaee/javax.annotation/blob/master/LICENSE"
-    },
-    {
         "jar": "junit-jupiter-api-5.7.2.jar",
         "url": "https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-api/5.7.2",
+        "rule": "EPL 2.0",
+        "license_url": "https://www.eclipse.org/legal/epl-v20.html"
+    },
+    {
+        "jar": "junit-jupiter-engine-5.7.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.7.2",
+        "rule": "EPL 2.0",
+        "license_url": "https://www.eclipse.org/legal/epl-v20.html"
+    },
+    {
+        "jar": "junit-jupiter-params-5.7.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-params/5.7.2",
+        "rule": "EPL 2.0",
+        "license_url": "https://www.eclipse.org/legal/epl-v20.html"
+    },
+    {
+        "jar": "junit-platform-commons-1.7.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.junit.platform/junit-platform-commons/1.7.2",
+        "rule": "EPL 2.0",
+        "license_url": "https://www.eclipse.org/legal/epl-v20.html"
+    },
+    {
+        "jar": "junit-platform-engine-1.7.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.junit.platform/junit-platform-engine/1.7.2",
         "rule": "EPL 2.0",
         "license_url": "https://www.eclipse.org/legal/epl-v20.html"
     },
@@ -1617,12 +1664,6 @@
         "license_url": ""
     },
     {
-        "jar": "junit-jupiter-engine-5.7.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.7.2",
-        "rule": "EPL 2.0",
-        "license_url": "https://www.eclipse.org/legal/epl-v20.html"
-    },
-    {
         "jar": "kerb-client-2.0.0.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.kerby/kerb-client/2.0.0",
         "rule": "Apache 2.0",
@@ -1635,18 +1676,6 @@
         "license_url": ""
     },
     {
-        "jar": "junit-jupiter-params-5.7.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-params/5.7.2",
-        "rule": "EPL 2.0",
-        "license_url": "https://www.eclipse.org/legal/epl-v20.html"
-    },
-    {
-        "jar": "junit-platform-commons-1.7.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.junit.platform/junit-platform-commons/1.7.2",
-        "rule": "EPL 2.0",
-        "license_url": "https://www.eclipse.org/legal/epl-v20.html"
-    },
-    {
         "jar": "kerb-core-2.0.0.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.kerby/kerb-core/2.0.0",
         "rule": "Apache 2.0",
@@ -1657,12 +1686,6 @@
         "url": "https://central.sonatype.com/artifact/org.apache.kerby/kerb-crypto/2.0.0",
         "rule": "Apache 2.0",
         "license_url": ""
-    },
-    {
-        "jar": "junit-platform-engine-1.7.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.junit.platform/junit-platform-engine/1.7.2",
-        "rule": "EPL 2.0",
-        "license_url": "https://www.eclipse.org/legal/epl-v20.html"
     },
     {
         "jar": "kerb-identity-2.0.0.jar",
@@ -1689,6 +1712,12 @@
         "license_url": ""
     },
     {
+        "jar": "kerby-asn1-2.0.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.kerby/kerby-asn1/2.0.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "kerby-config-2.0.0.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.kerby/kerby-config/2.0.0",
         "rule": "Apache 2.0",
@@ -1697,12 +1726,6 @@
     {
         "jar": "kerby-pkix-2.0.0.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.kerby/kerby-pkix/2.0.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "kerby-asn1-2.0.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.kerby/kerby-asn1/2.0.0",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1731,16 +1754,10 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "LatencyUtils-2.0.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.latencyutils/LatencyUtils/2.0.3",
-        "rule": "CC0 1.0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/"
-    },
-    {
-        "jar": "log4j-api-2.15.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.15.0",
+        "jar": "kotlin-stdlib-jdk7-1.6.10.jar",
+        "url": "https://central.sonatype.com/artifact/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.10",
         "rule": "Apache 2.0",
-        "license_url": ""
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "kotlin-stdlib-jdk8-1.6.10.jar",
@@ -1749,14 +1766,44 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "kotlin-stdlib-jdk7-1.6.10.jar",
-        "url": "https://central.sonatype.com/artifact/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.10",
+        "jar": "LatencyUtils-2.0.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.latencyutils/LatencyUtils/2.0.3",
+        "rule": "CC0 1.0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+        "jar": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava",
         "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "license_url": ""
+    },
+    {
+        "jar": "log4j-api-2.15.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.15.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
     },
     {
         "jar": "log4j-api-2.17.0.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.17.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "log4j-api-2.17.1.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.17.1",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "log4j-api-2.17.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.17.2",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "log4j-api-2.18.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.18.0",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1773,20 +1820,8 @@
         "license_url": ""
     },
     {
-        "jar": "junit-4.13.1.jar",
-        "url": "https://central.sonatype.com/artifact/junit/junit/4.13.1",
-        "rule": "EPL 1.0",
-        "license_url": "http://www.eclipse.org/legal/epl-v10.html"
-    },
-    {
-        "jar": "log4j-api-2.18.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.18.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "log4j-core-2.18.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-core/2.18.0",
+        "jar": "log4j-core-2.17.1.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-core/2.17.1",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1797,8 +1832,14 @@
         "license_url": ""
     },
     {
-        "jar": "log4j-api-2.17.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.17.2",
+        "jar": "log4j-core-2.18.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-core/2.18.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "log4j-jul-2.17.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jul/2.17.2",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1815,6 +1856,12 @@
         "license_url": ""
     },
     {
+        "jar": "log4j-slf4j-impl-2.17.1.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl/2.17.1",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "log4j-slf4j-impl-2.18.0.jar",
         "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl/2.18.0",
         "rule": "Apache 2.0",
@@ -1827,10 +1874,10 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "log4j-jul-2.17.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jul/2.17.2",
-        "rule": "Apache 2.0",
-        "license_url": ""
+        "jar": "lombok-1.18.24.jar",
+        "url": "https://central.sonatype.com/artifact/org.projectlombok/lombok/1.18.24",
+        "rule": "MIT",
+        "license_url": "https://projectlombok.org/LICENSE"
     },
     {
         "jar": "lookout-api-1.4.1.jar",
@@ -1863,20 +1910,14 @@
         "license_url": ""
     },
     {
-        "jar": "lombok-1.18.24.jar",
-        "url": "https://central.sonatype.com/artifact/org.projectlombok/lombok/1.18.24",
-        "rule": "MIT",
-        "license_url": "https://projectlombok.org/LICENSE"
-    },
-    {
-        "jar": "lucene-sandbox-4.7.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.lucene/lucene-sandbox/4.7.2",
+        "jar": "lucene-queryparser-4.7.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.lucene/lucene-queryparser/4.7.2",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "lucene-queryparser-4.7.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.lucene/lucene-queryparser/4.7.2",
+        "jar": "lucene-sandbox-4.7.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.lucene/lucene-sandbox/4.7.2",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1887,16 +1928,16 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
+        "jar": "lz4-java-1.8.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.lz4/lz4-java/1.8.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
         "jar": "metrics-annotation-4.2.4.jar",
         "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-annotation/4.2.4",
         "rule": "Apache 2.0",
         "license_url": ""
-    },
-    {
-        "jar": "junit-4.13.2.jar",
-        "url": "https://central.sonatype.com/artifact/junit/junit/4.13.2",
-        "rule": "EPL 1.0",
-        "license_url": "http://www.eclipse.org/legal/epl-v10.html"
     },
     {
         "jar": "metrics-core-3.0.2.jar",
@@ -1905,14 +1946,14 @@
         "license_url": ""
     },
     {
-        "jar": "metrics-core-4.0.2.jar",
-        "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-core/4.0.2",
+        "jar": "metrics-core-3.1.5.jar",
+        "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-core/3.1.5",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "metrics-core-3.1.5.jar",
-        "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-core/3.1.5",
+        "jar": "metrics-core-4.0.2.jar",
+        "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-core/4.0.2",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1929,20 +1970,14 @@
         "license_url": ""
     },
     {
-        "jar": "metrics-logback-3.1.5.jar",
-        "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-logback/3.1.5",
+        "jar": "metrics-jvm-3.1.5.jar",
+        "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jvm/3.1.5",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "lz4-java-1.8.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.lz4/lz4-java/1.8.0",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "metrics-jvm-3.1.5.jar",
-        "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jvm/3.1.5",
+        "jar": "metrics-logback-3.1.5.jar",
+        "url": "https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-logback/3.1.5",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1953,10 +1988,10 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "log4j-api-2.17.1.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-api/2.17.1",
+        "jar": "micrometer-registry-prometheus-1.7.12.jar",
+        "url": "https://central.sonatype.com/artifact/io.micrometer/micrometer-registry-prometheus/1.7.12",
         "rule": "Apache 2.0",
-        "license_url": ""
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "mmseg4j-core-1.10.0.jar",
@@ -1965,26 +2000,26 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "log4j-slf4j-impl-2.17.1.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl/2.17.1",
-        "rule": "Apache 2.0",
-        "license_url": ""
+        "jar": "mockito-core-3.3.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.mockito/mockito-core/3.3.3",
+        "rule": "MIT",
+        "license_url": "https://github.com/mockito/mockito/blob/master/LICENSE"
     },
     {
-        "jar": "micrometer-registry-prometheus-1.7.12.jar",
-        "url": "https://central.sonatype.com/artifact/io.micrometer/micrometer-registry-prometheus/1.7.12",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "mockito-core-3.9.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.mockito/mockito-core/3.9.0",
+        "rule": "MIT",
+        "license_url": "https://github.com/mockito/mockito/blob/release/3.x/LICENSE"
+    },
+    {
+        "jar": "mockito-junit-jupiter-3.9.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.mockito/mockito-junit-jupiter/3.9.0",
+        "rule": "MIT",
+        "license_url": "https://github.com/mockito/mockito/blob/release/3.x/LICENSE"
     },
     {
         "jar": "mxdump-0.14.jar",
         "url": "https://central.sonatype.com/artifact/org.gridkit.jvmtool/mxdump/0.14",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "netty-all-4.1.44.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-all/4.1.44.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -1995,14 +2030,8 @@
         "license_url": ""
     },
     {
-        "jar": "mockito-junit-jupiter-3.9.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.mockito/mockito-junit-jupiter/3.9.0",
-        "rule": "MIT",
-        "license_url": "https://github.com/mockito/mockito/blob/release/3.x/LICENSE"
-    },
-    {
-        "jar": "log4j-core-2.17.1.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-core/2.17.1",
+        "jar": "netty-all-4.1.44.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-all/4.1.44.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2013,32 +2042,8 @@
         "license_url": ""
     },
     {
-        "jar": "mockito-core-3.9.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.mockito/mockito-core/3.9.0",
-        "rule": "MIT",
-        "license_url": "https://github.com/mockito/mockito/blob/release/3.x/LICENSE"
-    },
-    {
         "jar": "netty-buffer-4.1.52.Final.jar",
         "url": "https://central.sonatype.com/artifact/io.netty/netty-buffer/4.1.52.Final",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "netty-codec-4.1.52.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-codec/4.1.52.Final",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "netty-codec-http2-4.1.52.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-codec-http2/4.1.52.Final",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "netty-codec-http-4.1.52.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-codec-http/4.1.52.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2049,20 +2054,20 @@
         "license_url": ""
     },
     {
+        "jar": "netty-codec-4.1.52.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-codec/4.1.52.Final",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "netty-codec-4.1.72.Final.jar",
         "url": "https://central.sonatype.com/artifact/io.netty/netty-codec/4.1.72.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "mockito-core-3.3.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.mockito/mockito-core/3.3.3",
-        "rule": "MIT",
-        "license_url": "https://github.com/mockito/mockito/blob/master/LICENSE"
-    },
-    {
-        "jar": "netty-codec-socks-4.1.52.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-codec-socks/4.1.52.Final",
+        "jar": "netty-codec-http2-4.1.52.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-codec-http2/4.1.52.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2073,14 +2078,20 @@
         "license_url": ""
     },
     {
+        "jar": "netty-codec-http-4.1.52.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-codec-http/4.1.52.Final",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "netty-codec-http-4.1.72.Final.jar",
         "url": "https://central.sonatype.com/artifact/io.netty/netty-codec-http/4.1.72.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "netty-common-4.1.52.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-common/4.1.52.Final",
+        "jar": "netty-codec-socks-4.1.52.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-codec-socks/4.1.52.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2091,14 +2102,8 @@
         "license_url": ""
     },
     {
-        "jar": "netty-handler-4.1.52.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-handler/4.1.52.Final",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "netty-handler-proxy-4.1.52.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-handler-proxy/4.1.52.Final",
+        "jar": "netty-common-4.1.52.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-common/4.1.52.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2109,14 +2114,32 @@
         "license_url": ""
     },
     {
-        "jar": "netty-resolver-4.1.52.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-resolver/4.1.52.Final",
+        "jar": "netty-handler-4.1.52.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-handler/4.1.52.Final",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "netty-handler-4.1.72.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-handler/4.1.72.Final",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "netty-handler-proxy-4.1.52.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-handler-proxy/4.1.52.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
         "jar": "netty-handler-proxy-4.1.72.Final.jar",
         "url": "https://central.sonatype.com/artifact/io.netty/netty-handler-proxy/4.1.72.Final",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "netty-resolver-4.1.52.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-resolver/4.1.52.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2133,14 +2156,30 @@
         "license_url": ""
     },
     {
-        "jar": "netty-handler-4.1.72.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-handler/4.1.72.Final",
-        "rule": "Apache 2.0",
-        "license_url": ""
+        "jar": "netty-tcnative-boringssl-static-2.0.36.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-tcnative-boringssl-static/2.0.36.Final",
+        "rule": "Apache 2.0"
+    },
+    {
+        "jar": "netty-tcnative-classes-2.0.46.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-tcnative-classes/2.0.46.Final",
+        "rule": "Apache 2.0"
     },
     {
         "jar": "netty-transport-4.1.52.Final.jar",
         "url": "https://central.sonatype.com/artifact/io.netty/netty-transport/4.1.52.Final",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "netty-transport-4.1.72.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-transport/4.1.72.Final",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "netty-transport-native-unix-common-4.1.72.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-transport-native-unix-common/4.1.72.Final",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2157,56 +2196,8 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "ohc-core-0.7.4.jar",
-        "url": "https://central.sonatype.com/artifact/org.caffinitas.ohc/ohc-core/0.7.4",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "netty-transport-native-unix-common-4.1.72.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-transport-native-unix-common/4.1.72.Final",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "ohc-core-j8-0.5.1.jar",
-        "url": "https://central.sonatype.com/artifact/org.caffinitas.ohc/ohc-core-j8/0.5.1",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "netty-transport-4.1.72.Final.jar",
-        "url": "https://central.sonatype.com/artifact/io.netty/netty-transport/4.1.72.Final",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "opentracing-api-0.22.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.opentracing/opentracing-api/0.22.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "okio-jvm-3.0.0.jar",
-        "url": "https://central.sonatype.com/artifact/com.squareup.okio/okio-jvm/3.0.0",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "opentracing-mock-0.22.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.opentracing/opentracing-mock/0.22.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
         "jar": "objenesis-2.6.jar",
         "url": "https://central.sonatype.com/artifact/org.objenesis/objenesis/2.6",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "opentracing-util-0.22.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.opentracing/opentracing-util/0.22.0",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2217,10 +2208,63 @@
         "license_url": ""
     },
     {
+        "jar": "ohc-core-0.7.4.jar",
+        "url": "https://central.sonatype.com/artifact/org.caffinitas.ohc/ohc-core/0.7.4",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "ohc-core-j8-0.5.1.jar",
+        "url": "https://central.sonatype.com/artifact/org.caffinitas.ohc/ohc-core-j8/0.5.1",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "okhttp-4.10.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.squareup.okhttp3/okhttp/4.10.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "okio-jvm-3.0.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.squareup.okio/okio-jvm/3.0.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "opentest4j-1.2.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.opentest4j/opentest4j/1.2.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "opentracing-api-0.22.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.opentracing/opentracing-api/0.22.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "opentracing-mock-0.22.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.opentracing/opentracing-mock/0.22.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "opentracing-noop-0.22.0.jar",
         "url": "https://central.sonatype.com/artifact/io.opentracing/opentracing-noop/0.22.0",
         "rule": "Apache 2.0",
         "license_url": ""
+    },
+    {
+        "jar": "opentracing-util-0.22.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.opentracing/opentracing-util/0.22.0",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
+        "jar": "osgi-resource-locator-1.0.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.glassfish.hk2/osgi-resource-locator/1.0.3",
+        "rule": "EPL 2.0"
     },
     {
         "jar": "parboiled-core-1.2.0.jar",
@@ -2241,16 +2285,16 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
     },
     {
-        "jar": "perfmark-api-0.23.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.perfmark/perfmark-api/0.23.0",
+        "jar": "perfmark-api-0.19.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.perfmark/perfmark-api/0.19.0",
         "rule": "Apache 2.0",
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-        "jar": "opentest4j-1.2.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.opentest4j/opentest4j/1.2.0",
+        "jar": "perfmark-api-0.23.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.perfmark/perfmark-api/0.23.0",
         "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
         "jar": "perfmark-api-0.25.0.jar",
@@ -2259,22 +2303,16 @@
         "license_url": "https://opensource.org/licenses/Apache-2.0"
     },
     {
-        "jar": "perfmark-api-0.19.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.perfmark/perfmark-api/0.19.0",
+        "jar": "picocli-4.3.2.jar",
+        "url": "https://central.sonatype.com/artifact/info.picocli/picocli/4.3.2",
         "rule": "Apache 2.0",
-        "license_url": "https://opensource.org/licenses/Apache-2.0"
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "postgresql-42.4.3.jar",
         "url": "https://central.sonatype.com/artifact/org.postgresql/postgresql/42.4.3",
         "rule": "BSD-2-Clause",
         "license_url": "https://jdbc.postgresql.org/about/license.html"
-    },
-    {
-        "jar": "okhttp-4.10.0.jar",
-        "url": "https://central.sonatype.com/artifact/com.squareup.okhttp3/okhttp/4.10.0",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "powermock-api-mockito2-2.0.0-RC.3.jar",
@@ -2289,20 +2327,14 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "powermock-classloading-xstream-2.0.0-RC.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.powermock/powermock-classloading-xstream/2.0.0-RC.3",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
         "jar": "powermock-classloading-base-2.0.0-RC.3.jar",
         "url": "https://central.sonatype.com/artifact/org.powermock/powermock-classloading-base/2.0.0-RC.3",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "powermock-module-junit4-2.0.0-RC.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.powermock/powermock-module-junit4/2.0.0-RC.3",
+        "jar": "powermock-classloading-xstream-2.0.0-RC.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.powermock/powermock-classloading-xstream/2.0.0-RC.3",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -2313,14 +2345,14 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "powermock-module-junit4-common-2.0.0-RC.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.powermock/powermock-module-junit4-common/2.0.0-RC.3",
+        "jar": "powermock-module-junit4-2.0.0-RC.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.powermock/powermock-module-junit4/2.0.0-RC.3",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "powermock-reflect-2.0.0-RC.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.powermock/powermock-reflect/2.0.0-RC.3",
+        "jar": "powermock-module-junit4-common-2.0.0-RC.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.powermock/powermock-module-junit4-common/2.0.0-RC.3",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -2331,16 +2363,10 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "picocli-4.3.2.jar",
-        "url": "https://central.sonatype.com/artifact/info.picocli/picocli/4.3.2",
+        "jar": "powermock-reflect-2.0.0-RC.3.jar",
+        "url": "https://central.sonatype.com/artifact/org.powermock/powermock-reflect/2.0.0-RC.3",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "protobuf-java-3.17.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.protobuf/protobuf-java/3.17.2",
-        "rule": "BSD-3-Clause",
-        "license_url": ""
     },
     {
         "jar": "protobuf-java-3.11.0.jar",
@@ -2349,20 +2375,8 @@
         "license_url": ""
     },
     {
-        "jar": "protobuf-java-util-3.17.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.protobuf/protobuf-java-util/3.17.2",
-        "rule": "BSD-3-Clause",
-        "license_url": ""
-    },
-    {
-        "jar": "protostuff-api-1.6.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.protostuff/protostuff-api/1.6.0",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "protobuf-java-3.5.1.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.protobuf/protobuf-java/3.5.1",
+        "jar": "protobuf-java-3.17.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.protobuf/protobuf-java/3.17.2",
         "rule": "BSD-3-Clause",
         "license_url": ""
     },
@@ -2373,20 +2387,38 @@
         "license_url": ""
     },
     {
-        "jar": "protostuff-collectionschema-1.6.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.protostuff/protostuff-collectionschema/1.6.0",
+        "jar": "protobuf-java-3.5.1.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.protobuf/protobuf-java/3.5.1",
+        "rule": "BSD-3-Clause",
+        "license_url": ""
+    },
+    {
+        "jar": "protobuf-java-util-3.17.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.protobuf/protobuf-java-util/3.17.2",
+        "rule": "BSD-3-Clause",
+        "license_url": ""
+    },
+    {
+        "jar": "proto-google-common-protos-1.17.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.api.grpc/proto-google-common-protos/1.17.0",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "proto-google-common-protos-2.0.1.jar",
+        "url": "https://central.sonatype.com/artifact/com.google.api.grpc/proto-google-common-protos/2.0.1",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "protostuff-api-1.6.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.protostuff/protostuff-api/1.6.0",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "psjava-0.1.19.jar",
-        "url": "https://central.sonatype.com/artifact/org.psjava/psjava/0.1.19",
-        "rule": "MIT",
-        "license_url": "http://opensource.org/licenses/MIT"
-    },
-    {
-        "jar": "protostuff-runtime-1.6.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.protostuff/protostuff-runtime/1.6.0",
+        "jar": "protostuff-collectionschema-1.6.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.protostuff/protostuff-collectionschema/1.6.0",
         "rule": "Apache 2.0",
         "license_url": ""
     },
@@ -2397,16 +2429,16 @@
         "license_url": ""
     },
     {
-        "jar": "rewriting-9.0-9.0.20190305.jar",
-        "url": "https://central.sonatype.com/artifact/org.opencypher/rewriting-9.0/9.0.20190305",
+        "jar": "protostuff-runtime-1.6.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.protostuff/protostuff-runtime/1.6.0",
         "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+        "license_url": ""
     },
     {
-        "jar": "proto-google-common-protos-1.17.0.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.api.grpc/proto-google-common-protos/1.17.0",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "psjava-0.1.19.jar",
+        "url": "https://central.sonatype.com/artifact/org.psjava/psjava/0.1.19",
+        "rule": "MIT",
+        "license_url": "http://opensource.org/licenses/MIT"
     },
     {
         "jar": "reporter-config3-3.0.3.jar",
@@ -2421,18 +2453,19 @@
         "license_url": ""
     },
     {
-        "jar": "osgi-resource-locator-1.0.3.jar",
-        "url": "https://central.sonatype.com/artifact/org.glassfish.hk2/osgi-resource-locator/1.0.3",
-        "rule": "EPL 2.0"
-    },
-    {
-        "jar": "rocksdbjni-7.2.2.jar",
-        "url": "https://central.sonatype.com/artifact/org.rocksdb/rocksdbjni/7.2.2",
-        "rule": "Apache 2.0"
+        "jar": "rewriting-9.0-9.0.20190305.jar",
+        "url": "https://central.sonatype.com/artifact/org.opencypher/rewriting-9.0/9.0.20190305",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
     },
     {
         "jar": "rocksdbjni-6.29.5.jar",
         "url": "https://central.sonatype.com/artifact/org.rocksdb/rocksdbjni/6.29.5",
+        "rule": "Apache 2.0"
+    },
+    {
+        "jar": "rocksdbjni-7.2.2.jar",
+        "url": "https://central.sonatype.com/artifact/org.rocksdb/rocksdbjni/7.2.2",
         "rule": "Apache 2.0"
     },
     {
@@ -2441,10 +2474,10 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "proto-google-common-protos-2.0.1.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.api.grpc/proto-google-common-protos/2.0.1",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "scala-java8-compat_2.12-0.8.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0",
+        "rule": "BSD-3-Clause",
+        "license_url": "http://opensource.org/licenses/BSD-3-Clause"
     },
     {
         "jar": "scala-library-2.12.7.jar",
@@ -2459,8 +2492,20 @@
         "license_url": "http://www.scala-lang.org/license.html"
     },
     {
+        "jar": "sigar-1.6.4.jar",
+        "url": "https://central.sonatype.com/artifact/org.fusesource/sigar/1.6.4",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "simpleclient-0.10.0.jar",
         "url": "https://central.sonatype.com/artifact/io.prometheus/simpleclient/0.10.0",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "simpleclient_common-0.10.0.jar",
+        "url": "https://central.sonatype.com/artifact/io.prometheus/simpleclient_common/0.10.0",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -2483,12 +2528,6 @@
         "license_url": ""
     },
     {
-        "jar": "simpleclient_common-0.10.0.jar",
-        "url": "https://central.sonatype.com/artifact/io.prometheus/simpleclient_common/0.10.0",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
         "jar": "sjk-core-0.14.jar",
         "url": "https://central.sonatype.com/artifact/org.gridkit.jvmtool/sjk-core/0.14",
         "rule": "Apache 2.0",
@@ -2507,28 +2546,20 @@
         "license_url": ""
     },
     {
-        "jar": "scala-java8-compat_2.12-0.8.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.scala-lang.modules/scala-java8-compat_2.12/0.8.0",
-        "rule": "BSD-3-Clause",
-        "license_url": "http://opensource.org/licenses/BSD-3-Clause"
+        "jar": "sjk-jfr5-0.5.jar",
+        "url": "https://central.sonatype.com/artifact/org.perfkit.sjk.parsers/sjk-jfr5/0.5",
+        "rule": "Apache 2.0"
     },
     {
-        "jar": "sigar-1.6.4.jar",
-        "url": "https://central.sonatype.com/artifact/org.fusesource/sigar/1.6.4",
-        "rule": "Apache 2.0",
-        "license_url": ""
+        "jar": "sjk-jfr6-0.7.jar",
+        "url": "https://central.sonatype.com/artifact/org.perfkit.sjk.parsers/sjk-jfr6/0.7",
+        "rule": "Apache 2.0"
     },
     {
         "jar": "sjk-jfr-standalone-0.7.jar",
         "url": "https://central.sonatype.com/artifact/org.perfkit.sjk.parsers/sjk-jfr-standalone/0.7",
         "rule": "Apache 2.0",
         "license_url": ""
-    },
-    {
-        "jar": "jsr305-3.0.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.code.findbugs/jsr305/3.0.2",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "sjk-json-0.14.jar",
@@ -2543,15 +2574,44 @@
         "license_url": ""
     },
     {
+        "jar": "sjk-nps-0.9.jar",
+        "url": "https://central.sonatype.com/artifact/org.perfkit.sjk.parsers/sjk-nps/0.9",
+        "rule": "Apache 2.0"
+    },
+    {
+        "jar": "sjk-stacktrace-0.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.gridkit.jvmtool/sjk-stacktrace/0.14",
+        "rule": "Apache 2.0",
+        "license_url": ""
+    },
+    {
         "jar": "sjk-stacktrace-0.22.jar",
         "url": "https://central.sonatype.com/artifact/org.gridkit.jvmtool/sjk-stacktrace/0.22",
         "rule": "Apache 2.0",
         "license_url": ""
     },
     {
-        "jar": "sjk-stacktrace-0.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.gridkit.jvmtool/sjk-stacktrace/0.14",
-        "rule": "Apache 2.0",
+        "jar": "slf4j-api-1.7.21.jar",
+        "url": "https://central.sonatype.com/artifact/org.slf4j/slf4j-api/1.7.21",
+        "rule": "MIT",
+        "license_url": ""
+    },
+    {
+        "jar": "slf4j-api-1.7.25.jar",
+        "url": "https://central.sonatype.com/artifact/org.slf4j/slf4j-api/1.7.25",
+        "rule": "MIT",
+        "license_url": ""
+    },
+    {
+        "jar": "slf4j-api-1.7.32.jar",
+        "url": "https://central.sonatype.com/artifact/org.slf4j/slf4j-api/1.7.32",
+        "rule": "MIT",
+        "license_url": ""
+    },
+    {
+        "jar": "slf4j-api-2.0.9.jar",
+        "url": "https://central.sonatype.com/artifact/org.slf4j/slf4j-api/2.0.9",
+        "rule": "MIT",
         "license_url": ""
     },
     {
@@ -2561,20 +2621,8 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
-        "jar": "slf4j-api-2.0.9.jar",
-        "url": "https://central.sonatype.com/artifact/org.slf4j/slf4j-api/2.0.9",
-        "rule": "MIT",
-        "license_url": ""
-    },
-    {
-        "jar": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
-        "url": "https://central.sonatype.com/artifact/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava",
-        "rule": "Apache 2.0",
-        "license_url": ""
-    },
-    {
-        "jar": "snappy-java-1.1.2.6.jar",
-        "url": "https://central.sonatype.com/artifact/org.xerial.snappy/snappy-java/1.1.2.6",
+        "jar": "snakeyaml-1.26.jar",
+        "url": "https://central.sonatype.com/artifact/org.yaml/snakeyaml/1.26",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -2583,30 +2631,6 @@
         "url": "https://central.sonatype.com/artifact/org.yaml/snakeyaml/1.27",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "sofa-common-tools-1.0.12.jar",
-        "url": "https://central.sonatype.com/artifact/com.alipay.sofa.common/sofa-common-tools/1.0.12",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "snowball-stemmer-1.3.0.581.1.jar",
-        "url": "https://central.sonatype.com/artifact/com.github.rholder/snowball-stemmer/1.3.0.581.1",
-        "rule": "BSD",
-        "license_url": "http://www.opensource.org/licenses/bsd-license.html "
-    },
-    {
-        "jar": "sofa-rpc-all-5.7.6.jar",
-        "url": "https://central.sonatype.com/artifact/com.alipay.sofa/sofa-rpc-all/5.7.6",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "sourcecode_2.12-0.1.4.jar",
-        "url": "https://central.sonatype.com/artifact/com.lihaoyi/sourcecode_2.12/0.1.4",
-        "rule": "MIT",
-        "license_url": "http://www.opensource.org/licenses/mit-license.html"
     },
     {
         "jar": "snakeyaml-1.28.jar",
@@ -2621,32 +2645,38 @@
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
+        "jar": "snappy-java-1.1.2.6.jar",
+        "url": "https://central.sonatype.com/artifact/org.xerial.snappy/snappy-java/1.1.2.6",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "snowball-stemmer-1.3.0.581.1.jar",
+        "url": "https://central.sonatype.com/artifact/com.github.rholder/snowball-stemmer/1.3.0.581.1",
+        "rule": "BSD",
+        "license_url": "http://www.opensource.org/licenses/bsd-license.html "
+    },
+    {
+        "jar": "sofa-common-tools-1.0.12.jar",
+        "url": "https://central.sonatype.com/artifact/com.alipay.sofa.common/sofa-common-tools/1.0.12",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "sofa-rpc-all-5.7.6.jar",
+        "url": "https://central.sonatype.com/artifact/com.alipay.sofa/sofa-rpc-all/5.7.6",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+        "jar": "sourcecode_2.12-0.1.4.jar",
+        "url": "https://central.sonatype.com/artifact/com.lihaoyi/sourcecode_2.12/0.1.4",
+        "rule": "MIT",
+        "license_url": "http://www.opensource.org/licenses/mit-license.html"
+    },
+    {
         "jar": "spring-aop-5.3.20.jar",
         "url": "https://central.sonatype.com/artifact/org.springframework/spring-aop/5.3.20",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
-    },
-    {
-        "jar": "spring-boot-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot/2.5.14",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
-    },
-    {
-        "jar": "spring-boot-actuator-autoconfigure-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-actuator-autoconfigure/2.5.14",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
-    },
-    {
-        "jar": "spring-boot-actuator-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-actuator/2.5.14",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
-    },
-    {
-        "jar": "spring-boot-autoconfigure-2.5.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-autoconfigure/2.5.0",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
@@ -2657,14 +2687,38 @@
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
     {
-        "jar": "spring-boot-starter-2.5.0.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-starter/2.5.0",
+        "jar": "spring-boot-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot/2.5.14",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+        "jar": "spring-boot-actuator-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-actuator/2.5.14",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+        "jar": "spring-boot-actuator-autoconfigure-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-actuator-autoconfigure/2.5.14",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+        "jar": "spring-boot-autoconfigure-2.5.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-autoconfigure/2.5.0",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
     {
         "jar": "spring-boot-autoconfigure-2.5.14.jar",
         "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-autoconfigure/2.5.14",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+        "jar": "spring-boot-starter-2.5.0.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-starter/2.5.0",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
@@ -2687,8 +2741,8 @@
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
     {
-        "jar": "spring-boot-starter-test-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-starter-test/2.5.14",
+        "jar": "spring-boot-starter-json-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-starter-json/2.5.14",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
@@ -2699,8 +2753,8 @@
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
     {
-        "jar": "spring-boot-starter-json-2.5.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-starter-json/2.5.14",
+        "jar": "spring-boot-starter-test-2.5.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-starter-test/2.5.14",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
@@ -2723,6 +2777,12 @@
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
     {
+        "jar": "spring-context-5.3.20.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework/spring-context/5.3.20",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
         "jar": "spring-context-support-5.3.20.jar",
         "url": "https://central.sonatype.com/artifact/org.springframework/spring-context-support/5.3.20",
         "rule": "Apache 2.0",
@@ -2731,12 +2791,6 @@
     {
         "jar": "spring-core-5.3.20.jar",
         "url": "https://central.sonatype.com/artifact/org.springframework/spring-core/5.3.20",
-        "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
-    },
-    {
-        "jar": "spring-context-5.3.20.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework/spring-context/5.3.20",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
@@ -2753,16 +2807,28 @@
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
     {
+        "jar": "spring-web-5.3.20.jar",
+        "url": "https://central.sonatype.com/artifact/org.springframework/spring-web/5.3.20",
+        "rule": "Apache 2.0",
+        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
         "jar": "spring-webmvc-5.3.20.jar",
         "url": "https://central.sonatype.com/artifact/org.springframework/spring-webmvc/5.3.20",
         "rule": "Apache 2.0",
         "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
     {
-        "jar": "spring-web-5.3.20.jar",
-        "url": "https://central.sonatype.com/artifact/org.springframework/spring-web/5.3.20",
+        "jar": "ST4-4.0.8.jar",
+        "url": "https://central.sonatype.com/artifact/org.antlr/ST4/4.0.8",
+        "rule": "BSD",
+        "license_url": "http://antlr.org/license.html"
+    },
+    {
+        "jar": "stream-2.5.2.jar",
+        "url": "https://central.sonatype.com/artifact/com.clearspring.analytics/stream/2.5.2",
         "rule": "Apache 2.0",
-        "license_url": "https://www.apache.org/licenses/LICENSE-2.0"
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "swagger-annotations-1.5.18.jar",
@@ -2801,28 +2867,10 @@
         "license_url": ""
     },
     {
-        "jar": "snakeyaml-1.26.jar",
-        "url": "https://central.sonatype.com/artifact/org.yaml/snakeyaml/1.26",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
-    },
-    {
-        "jar": "ST4-4.0.8.jar",
-        "url": "https://central.sonatype.com/artifact/org.antlr/ST4/4.0.8",
-        "rule": "BSD",
-        "license_url": "http://antlr.org/license.html"
-    },
-    {
         "jar": "swagger-models-1.5.18.jar",
         "url": "https://central.sonatype.com/artifact/io.swagger/swagger-models/1.5.18",
         "rule": "Apache 2.0",
         "license_url": ""
-    },
-    {
-        "jar": "stream-2.5.2.jar",
-        "url": "https://central.sonatype.com/artifact/com.clearspring.analytics/stream/2.5.2",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
     {
         "jar": "swagger-models-jakarta-2.2.18.jar",
@@ -2843,8 +2891,8 @@
         "license_url": ""
     },
     {
-        "jar": "translation-1.0.4.jar",
-        "url": "https://central.sonatype.com/artifact/org.opencypher.gremlin/translation/1.0.4",
+        "jar": "tomcat-embed-el-9.0.63.jar",
+        "url": "https://central.sonatype.com/artifact/org.apache.tomcat.embed/tomcat-embed-el/9.0.63",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -2855,14 +2903,20 @@
         "license_url": ""
     },
     {
+        "jar": "translation-1.0.4.jar",
+        "url": "https://central.sonatype.com/artifact/org.opencypher.gremlin/translation/1.0.4",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
         "jar": "util-9.0-9.0.20190305.jar",
         "url": "https://central.sonatype.com/artifact/org.opencypher/util-9.0/9.0.20190305",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0"
     },
     {
-        "jar": "tomcat-embed-el-9.0.63.jar",
-        "url": "https://central.sonatype.com/artifact/org.apache.tomcat.embed/tomcat-embed-el/9.0.63",
+        "jar": "validation-api-1.1.0.Final.jar",
+        "url": "https://central.sonatype.com/artifact/javax.validation/validation-api/1.1.0.Final",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     },
@@ -2872,19 +2926,13 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "websocket-common-9.4.46.v20220331.jar",
-        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty.websocket/websocket-common/9.4.46.v20220331",
+        "jar": "websocket-client-9.4.46.v20220331.jar",
+        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty.websocket/websocket-client/9.4.46.v20220331",
         "rule": "Apache 2.0"
     },
     {
-        "jar": "slf4j-api-1.7.32.jar",
-        "url": "https://central.sonatype.com/artifact/org.slf4j/slf4j-api/1.7.32",
-        "rule": "MIT",
-        "license_url": ""
-    },
-    {
-        "jar": "websocket-client-9.4.46.v20220331.jar",
-        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty.websocket/websocket-client/9.4.46.v20220331",
+        "jar": "websocket-common-9.4.46.v20220331.jar",
+        "url": "https://central.sonatype.com/artifact/org.eclipse.jetty.websocket/websocket-common/9.4.46.v20220331",
         "rule": "Apache 2.0"
     },
     {
@@ -2898,16 +2946,10 @@
         "rule": "Apache 2.0"
     },
     {
-        "jar": "zstd-jni-1.5.5-1.jar",
-        "url": "https://central.sonatype.com/artifact/com.github.luben/zstd-jni/1.5.5-1",
-        "rule": "BSD-2-Clause",
-        "license_url": "https://opensource.org/licenses/BSD-2-Clause"
-    },
-    {
-        "jar": "zt-zip-1.14.jar",
-        "url": "https://central.sonatype.com/artifact/org.zeroturnaround/zt-zip/1.14",
-        "rule": "Apache 2.0",
-        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        "jar": "xmlpull-1.1.3.1.jar",
+        "url": "https://central.sonatype.com/artifact/xmlpull/xmlpull/1.1.3.1",
+        "rule": "Public Domain",
+        "license_url": "http://www.xmlpull.org/v1/download/unpacked/LICENSE.txt"
     },
     {
         "jar": "xmlunit-core-2.8.4.jar",
@@ -2916,37 +2958,25 @@
         "license_url": ""
     },
     {
+        "jar": "xpp3_min-1.1.4c.jar",
+        "url": "https://central.sonatype.com/artifact/xpp3/xpp3_min/1.1.4c",
+        "rule": "Public Domain"
+    },
+    {
         "jar": "xstream-1.4.10.jar",
         "url": "https://central.sonatype.com/artifact/com.thoughtworks.xstream/xstream/1.4.10",
         "rule": "BSD",
         "license_url": ""
     },
     {
-        "jar": "xpp3_min-1.1.4c.jar",
-        "url": "https://central.sonatype.com/artifact/xpp3/xpp3_min/1.1.4c",
-        "rule": "Public Domain"
+        "jar": "zstd-jni-1.5.5-1.jar",
+        "url": "https://central.sonatype.com/artifact/com.github.luben/zstd-jni/1.5.5-1",
+        "rule": "BSD-2-Clause",
+        "license_url": "https://opensource.org/licenses/BSD-2-Clause"
     },
     {
-        "jar": "slf4j-api-1.7.21.jar",
-        "url": "https://central.sonatype.com/artifact/org.slf4j/slf4j-api/1.7.21",
-        "rule": "MIT",
-        "license_url": ""
-    },
-    {
-        "jar": "xmlpull-1.1.3.1.jar",
-        "url": "https://central.sonatype.com/artifact/xmlpull/xmlpull/1.1.3.1",
-        "rule": "Public Domain",
-        "license_url": "http://www.xmlpull.org/v1/download/unpacked/LICENSE.txt"
-    },
-    {
-        "jar": "slf4j-api-1.7.25.jar",
-        "url": "https://central.sonatype.com/artifact/org.slf4j/slf4j-api/1.7.25",
-        "rule": "MIT",
-        "license_url": ""
-    },
-    {
-        "jar": "validation-api-1.1.0.Final.jar",
-        "url": "https://central.sonatype.com/artifact/javax.validation/validation-api/1.1.0.Final",
+        "jar": "zt-zip-1.14.jar",
+        "url": "https://central.sonatype.com/artifact/org.zeroturnaround/zt-zip/1.14",
         "rule": "Apache 2.0",
         "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
     }
