@@ -1463,6 +1463,12 @@
         "rule": "Apache 2.0"
     },
     {
+        "jar": "jffi-1.2.16.jar",
+        "url": "https://central.sonatype.com/artifact/com.github.jnr/jffi/1.2.16",
+        "rule": "Apache 2.0",
+        "license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
         "jar": "jffi-1.2.16-native.jar",
         "url": "https://central.sonatype.com/artifact/com.github.jnr/jffi/1.2.16",
         "rule": "Apache 2.0",

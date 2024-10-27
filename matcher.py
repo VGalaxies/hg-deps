@@ -43,21 +43,20 @@ predefined_rules = {
 }
 
 
-def load_urls(file_path):
+def load_jars(file_path):
     with open(file_path, 'r') as file:
-        return {item['url']: item['jar'] for item in json.load(file)}
+        return {item['jar']: item['url'] for item in json.load(file)}
 
 
 def match_licenses(licenses_file, urls_file):
-    urls = load_urls(urls_file)
+    jars = load_jars(urls_file)
 
     with open(licenses_file, 'r') as file:
         data = json.load(file)
 
     results = []  # 存储结果的列表
 
-    for url, _ in urls.items():
-        jar_file = urls.get(url, "")
+    for jar_file, url in jars.items():
         licenses = data.get(url)
         if licenses is None:
             predefined_rule = predefined_rules.get(jar_file)
@@ -90,7 +89,6 @@ def match_licenses(licenses_file, urls_file):
                     matched_rule = rule_name
                     break
 
-            jar_file = urls.get(url, "")  # 从 urls 中获取 jar 文件名
             if matched_rule:
                 results.append({"jar": jar_file, "url": url, "rule": matched_rule, "license_url": licenses[license_name]})
             else:
