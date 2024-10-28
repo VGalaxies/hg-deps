@@ -6,7 +6,7 @@
 # 步骤
 
 - 通过 [url.py](url.py) 生成 [urls.json](urls.json)，其中包含 jar 包名和对应的 maven 仓库 url
- - jffi-1.2.16-native.jar 和 jffi-1.2.16.jar 对应的 url 一样
+  - jffi-1.2.16-native.jar 和 jffi-1.2.16.jar 对应的 url 一样
 - 通过 [spider.py](spider.py) 在 url 中爬取 license 信息
   - 有些可能爬不到，在后续 match 阶段特判
 - 通过 [merger.py](merger.py) 将爬取 license 信息整合，以 url 为 key
