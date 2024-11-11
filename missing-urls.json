@@ -1,0 +1,26 @@
+[
+    {
+        "jar": "jakarta.activation-2.0.0.jar",
+        "url": "https://central.sonatype.com/artifact/com.sun.activation/jakarta.activation/2.0.0"
+    },
+    {
+        "jar": "netty-tcnative-boringssl-static-2.0.36.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-tcnative-boringssl-static/2.0.36.Final"
+    },
+    {
+        "jar": "netty-tcnative-classes-2.0.46.Final.jar",
+        "url": "https://central.sonatype.com/artifact/io.netty/netty-tcnative-classes/2.0.46.Final"
+    },
+    {
+        "jar": "sjk-jfr5-0.5.jar",
+        "url": "https://central.sonatype.com/artifact/org.perfkit.sjk.parsers/sjk-jfr5/0.5"
+    },
+    {
+        "jar": "sjk-jfr6-0.7.jar",
+        "url": "https://central.sonatype.com/artifact/org.perfkit.sjk.parsers/sjk-jfr6/0.7"
+    },
+    {
+        "jar": "sjk-nps-0.9.jar",
+        "url": "https://central.sonatype.com/artifact/org.perfkit.sjk.parsers/sjk-nps/0.9"
+    }
+]

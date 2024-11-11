@@ -34,12 +34,31 @@ multiple_license_rules = {
 }
 
 predefined_rules = {
+    # for unknown rule in licenses.json
     "jakarta.activation-2.0.0.jar": "BSD-3-Clause",
     "netty-tcnative-boringssl-static-2.0.36.Final.jar": "Apache 2.0",
     "netty-tcnative-classes-2.0.46.Final.jar": "Apache 2.0",
     "sjk-jfr5-0.5.jar": "Apache 2.0",
     "sjk-jfr6-0.7.jar": "Apache 2.0",
     "sjk-nps-0.9.jar": "Apache 2.0",
+    # for multiple license (greater than 2)
+    "javassist-3.21.0-GA.jar": "Apache 2.0",
+    "javassist-3.24.0-GA.jar": "Apache 2.0",
+    "javassist-3.28.0-GA.jar": "Apache 2.0",
+    "jersey-apache-connector-3.0.3.jar": "EPL 2.0",
+    "jersey-client-3.0.3.jar": "EPL 2.0",
+    "jersey-common-3.0.3.jar": "EPL 2.0",
+    "jersey-container-grizzly2-http-3.0.3.jar": "EPL 2.0",
+    "jersey-container-grizzly2-servlet-3.0.3.jar": "EPL 2.0",
+    "jersey-container-servlet-3.0.3.jar": "EPL 2.0",
+    "jersey-container-servlet-core-3.0.3.jar": "EPL 2.0",
+    "jersey-entity-filtering-3.0.3.jar": "EPL 2.0",
+    "jersey-hk2-3.0.3.jar": "EPL 2.0",
+    "jersey-media-jaxb-3.0.3.jar": "EPL 2.0",
+    "jersey-media-json-jackson-3.0.3.jar": "EPL 2.0",
+    "jersey-server-3.0.3.jar": "EPL 2.0",
+    "jersey-test-framework-core-3.0.3.jar": "EPL 2.0",
+    "jersey-test-framework-provider-grizzly2-3.0.3.jar": "EPL 2.0"
 }
 
 
@@ -69,7 +88,7 @@ def match_licenses(licenses_file, urls_file):
         license_names = list(licenses.keys())
         matched_rule = None
 
-        if len(license_names) > 1:
+        if len(license_names) == 2:
             # 匹配多个许可证的规则
             for rule_name, rule_logic in multiple_license_rules.items():
                 if rule_logic(license_names):
@@ -93,6 +112,12 @@ def match_licenses(licenses_file, urls_file):
                 results.append({"jar": jar_file, "url": url, "rule": matched_rule, "license_url": licenses[license_name]})
             else:
                 results.append({"jar": jar_file, "url": url, "rule": f"Error: No matching rule for {license_name}"})
+        elif len(license_names) > 2:
+            predefined_rule = predefined_rules.get(jar_file)
+            if predefined_rule is not None:
+                results.append({"jar": jar_file, "url": url, "rule": predefined_rule})
+            else:
+                print(f"Error: No matching rule for {jar_file} {url}")
 
     # 将结果写入 urls.json
     with open('matched-licenses.json', 'w') as output_file:

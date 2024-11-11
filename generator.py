@@ -13,6 +13,12 @@ def extract_license(jar_path, jar_name, rule, license_url):
         extract_path = os.path.join(tmpdirname, name)
         license_dest = f"licenses/LICENSE-{name}.txt"
 
+        # Try to find predefined license file
+        predefined_license_file = f"licenses-predefined/{name}.txt"
+        if os.path.exists(predefined_license_file):
+            shutil.copyfile(predefined_license_file, license_dest)
+            return f"from predefined license: {predefined_license_file}"
+
         # Unzip JAR file using zipfile
         with zipfile.ZipFile(jar_path, 'r') as jar_file:
             jar_file.extractall(extract_path)
@@ -29,12 +35,6 @@ def extract_license(jar_path, jar_name, rule, license_url):
             license_src = license_files[0]
             shutil.copyfile(license_src, license_dest)
             return "extracted from JAR"
-
-        # Try to find predefined license file
-        predefined_license_file = f"licenses-predefined/{name}.txt"
-        if os.path.exists(predefined_license_file):
-            shutil.copyfile(predefined_license_file, license_dest)
-            return f"from predefined license: {predefined_license_file}"
 
         # Handle cases where no file is found in JAR
         if rule != "Apache 2.0" and license_url:
@@ -79,8 +79,8 @@ def process_licenses(json_file, dependencies_path):
         print(f"The following components are provided under the {rule} License. See project link for details.")
         print("The text of each license is also included in licenses/LICENSE-[project].txt.\n")
         for url, _, source in entries:
-            # print(f"    {url} -> {rule} | {source}")
-            print(f"    {url} -> {rule}")
+            print(f"    {url} -> {rule} | {source}")
+            # print(f"    {url} -> {rule}")
 
 
 if __name__ == "__main__":
@@ -91,11 +91,11 @@ if __name__ == "__main__":
 
 # The code attempts to obtain licenses from the following sources:
 #
-# 1. **Inside the JAR file**:
-#    - Extracts the JAR file and searches for files containing "license."
-#
-# 2. **Predefined license files**:
+# 1. **Predefined license files**:
 #    - Checks the `licenses-predefined` directory for a matching license file.
+#
+# 2. **Inside the JAR file**:
+#    - Extracts the JAR file and searches for files containing "license."
 #
 # 3. **License URL**:
 #    - Uses the `license_url` to create a license file if none is found in the JAR or predefined directory and if the license rule isn't "Apache 2.0."
