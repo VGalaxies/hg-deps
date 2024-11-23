@@ -1175,8 +1175,7 @@
     {
         "jar": "java-cup-runtime-11b-20160615.jar",
         "url": "https://central.sonatype.com/artifact/com.github.vbmacher/java-cup-runtime/11b-20160615",
-        "rule": "CUP Parser Generator Copyright Notice, License, and Disclaimer",
-        "license_url": "http://www2.cs.tum.edu/projects/cup/install.php"
+        "rule": "Historical Permission Notice and Disclaimer"
     },
     {
         "jar": "javapoet-1.8.0.jar",
@@ -1564,8 +1563,7 @@
     {
         "jar": "json-20210307.jar",
         "url": "https://central.sonatype.com/artifact/org.json/json/20210307",
-        "rule": "The JSON License",
-        "license_url": "http://json.org/license.html"
+        "rule": "Public Domain"
     },
     {
         "jar": "jsonassert-1.5.0.jar",
@@ -1774,8 +1772,7 @@
     {
         "jar": "LatencyUtils-2.0.3.jar",
         "url": "https://central.sonatype.com/artifact/org.latencyutils/LatencyUtils/2.0.3",
-        "rule": "CC0 1.0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/"
+        "rule": "BSD-2-Clause"
     },
     {
         "jar": "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",

@@ -15,8 +15,6 @@ single_license_rules = {
     "CDDL": lambda license_name: "CDDL" in license_name,
     "CC0 1.0": lambda license_name: "Creative Commons CC0" in license_name,
     "Public Domain": lambda license_name: "Public Domain" in license_name,
-    "The JSON License": lambda license_name: "The JSON License" in license_name,
-    "CUP Parser Generator Copyright Notice, License, and Disclaimer": lambda license_name: "CUP Parser Generator Copyright Notice, License, and Disclaimer" in license_name,
 }
 
 def any_match(str):
@@ -34,6 +32,10 @@ multiple_license_rules = {
 }
 
 predefined_rules = {
+    # predefined rule for overriding
+    "json-20210307.jar": "Public Domain",
+    "java-cup-runtime-11b-20160615.jar": "Historical Permission Notice and Disclaimer",
+    "LatencyUtils-2.0.3.jar": "BSD-2-Clause",
     # for unknown rule in licenses.json
     "jakarta.activation-2.0.0.jar": "BSD-3-Clause",
     "netty-tcnative-boringssl-static-2.0.36.Final.jar": "Apache 2.0",
@@ -76,13 +78,14 @@ def match_licenses(licenses_file, urls_file):
     results = []  # 存储结果的列表
 
     for jar_file, url in jars.items():
+        predefined_rule = predefined_rules.get(jar_file)
+        if predefined_rule is not None:
+            results.append({"jar": jar_file, "url": url, "rule": predefined_rule})
+            continue
+
         licenses = data.get(url)
         if licenses is None:
-            predefined_rule = predefined_rules.get(jar_file)
-            if predefined_rule is not None:
-                results.append({"jar": jar_file, "url": url, "rule": predefined_rule})
-            else:
-                print(f"Error: No matching rule for {jar_file} {url}")
+            print(f"Error: No matching rule for {jar_file} {url}, no licenses")
             continue
 
         license_names = list(licenses.keys())
@@ -98,7 +101,7 @@ def match_licenses(licenses_file, urls_file):
             if matched_rule:
                 results.append({"jar": jar_file, "url": url, "rule": matched_rule})
             else:
-                results.append({"jar": jar_file, "url": url, "rule": f"Error: Multiple licenses found: {license_names}"})
+                print(f"Error: No matching rule for {jar_file} {url}, multiple licenses found: {license_names}")
         elif len(license_names) == 1:
             license_name = license_names[0]
 
@@ -111,13 +114,9 @@ def match_licenses(licenses_file, urls_file):
             if matched_rule:
                 results.append({"jar": jar_file, "url": url, "rule": matched_rule, "license_url": licenses[license_name]})
             else:
-                results.append({"jar": jar_file, "url": url, "rule": f"Error: No matching rule for {license_name}"})
+                print(f"Error: No matching rule for {jar_file} {url}, no matching rule for {license_name}")
         elif len(license_names) > 2:
-            predefined_rule = predefined_rules.get(jar_file)
-            if predefined_rule is not None:
-                results.append({"jar": jar_file, "url": url, "rule": predefined_rule})
-            else:
-                print(f"Error: No matching rule for {jar_file} {url}")
+            print(f"Error: No matching rule for {jar_file} {url}, multiple licenses found: {license_names}")
 
     # 将结果写入 urls.json
     with open('matched-licenses.json', 'w') as output_file:

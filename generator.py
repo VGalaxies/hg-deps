@@ -79,8 +79,8 @@ def process_licenses(json_file, dependencies_path):
         print(f"The following components are provided under the {rule} License. See project link for details.")
         print("The text of each license is also included in licenses/LICENSE-[project].txt.\n")
         for url, _, source in entries:
-            print(f"    {url} -> {rule} | {source}")
-            # print(f"    {url} -> {rule}")
+            # print(f"    {url} -> {rule} | {source}")
+            print(f"    {url} -> {rule}")
 
 
 if __name__ == "__main__":
